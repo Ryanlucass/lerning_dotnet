@@ -6,7 +6,10 @@ namespace lerning_dotnet
     {
         static void Main(string[] args)
         {
+            oi oi = new oi();
             Console.WriteLine("Hello World!");
+
+            oi.BoaNoite();
         }
     }
 }
