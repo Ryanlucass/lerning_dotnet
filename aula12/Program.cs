@@ -6,7 +6,11 @@ namespace aula12
     {
         static void Main()
         {
+
+            Inicio:
+        
             float nota;
+            char resposta;
 
 
           Console.WriteLine("Digite a nota do primeiro bimestre");
@@ -20,6 +24,22 @@ namespace aula12
           }
           else{
               Console.WriteLine("você foi reprovado");
+
+            Console.WriteLine("Você deseja escrever outra nota? s/n: ");
+            resposta=char.Parse(Console.ReadLine());
+            
+            if(resposta == 's' || resposta== 'S'){
+                Console.Clear();
+                goto Inicio;
+            }
+            else{
+                Console.Clear();
+                Console.WriteLine("Fim do programa");
+            }
+
+
+
+
           }
 
         }
