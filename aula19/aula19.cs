@@ -6,9 +6,11 @@ namespace aula19
     {
         static void Main()
         {
-           for(int num=0; num<10 ; num++){
-               
-               Console.WriteLine("valor de num:{0}",num);
+            int[] n={33,44,55,66,44};
+ 
+
+           for(int s=0; s<5 ; s++){
+            Console.WriteLine(n[s]);
 
            }
         }
