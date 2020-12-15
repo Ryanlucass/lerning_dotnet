@@ -29,6 +29,7 @@ namespace aula12
             resposta=char.Parse(Console.ReadLine());
             
             if(resposta == 's' || resposta== 'S'){
+                //para usar o operador == é necessário que use aspas simples
                 Console.Clear();
                 goto Inicio;
             }
