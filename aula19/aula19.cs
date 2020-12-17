@@ -12,7 +12,7 @@ namespace aula19
            for(int s=0; s<n.Length; s++){
             //Console.WriteLine(n[s]);
 
-            //pegando a posição 
+            //pegando a posição, e o,prminndo os valores do array
             Console.WriteLine("O valor do número na posição {0}: {1}",s,n[s]);
 
            }
