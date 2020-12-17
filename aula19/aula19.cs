@@ -18,4 +18,4 @@ namespace aula19
         }
     }
 }
-//a função Lenght ela 
+//a função Lenght ela conta a quantidade de númeos que existem na cindição, por isso é algo bem facilitador 
