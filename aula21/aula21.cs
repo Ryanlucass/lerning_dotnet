@@ -13,20 +13,26 @@ namespace aula21
          int tentativas=0;
 
          do{
-             Console.Clear();
              Console.WriteLine("Começo com a letra: l");
              Console.WriteLine("Digite o meu nome: ");
              nomeuser=Console.ReadLine();
              tentativas++;
              
-            if(tentativas == 2){
+            if(tentativas == 1)
+            {
+            Console.Clear();
             Console.WriteLine("Sou um nome popular de 2001");
+            }
+            if(tentativas== 2)
+            {
+            Console.Clear();
+            Console.WriteLine("termino com s");
             }
 
             }while(nome != nomeuser);
             
-            Console.Clear();
-            Console.WriteLine("Nome correto, tentativas{0}",tentativas);
+            
+            Console.WriteLine("Nome correto, tentativas: {0}",tentativas);
 
         }
     }
