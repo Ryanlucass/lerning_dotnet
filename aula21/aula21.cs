@@ -7,12 +7,26 @@ namespace aula21
         static void Main()
         {
          //com o do while primeiro ele executa e depois ele testa 
-        int num=5;
 
-        do{
-            Console.WriteLine("testando");
-        }while(num<5);
+         string nome="lucas";
+         string nomeuser;
+         int tentativas=0;
 
+         do{
+             Console.Clear();
+             Console.WriteLine("Começo com a letra: l");
+             Console.WriteLine("Digite o meu nome: ");
+             nomeuser=Console.ReadLine();
+             tentativas++;
+             
+            if(tentativas == 2){
+            Console.WriteLine("Sou um nome popular de 2001");
+            }
+
+            }while(nome != nomeuser);
+            
+            Console.Clear();
+            Console.WriteLine("Nome correto, tentativas{0}",tentativas);
 
         }
     }
