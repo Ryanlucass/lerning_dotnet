@@ -23,6 +23,12 @@ namespace aula24
             multiplicar(v1,v2);
 
             */
+            int v1,v2,r; 
+            
+            v1=Convert.ToInt32 (Console.ReadLine());
+            v2=Convert.ToInt32 (Console.ReadLine());
+            r=divisao(v1,v2);
+            Console.WriteLine("A divisão de {0} e {1} é: {2}",v1,v2,r);  
 
 
         }
