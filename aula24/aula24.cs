@@ -8,7 +8,17 @@ namespace aula24
         {
             //chamando o método na função principal
             //quando chamar um método que possui argumento é necessário colocar o seu valor 
-            somar(2342340,5234234);
+            Console.WriteLine("Chamando o método soma: ");
+            somar(13,34);
+
+            Console.WriteLine("Chamando o método de multiplicação aplicando valores do teclado");
+            
+            int v1,v2;
+
+            v1=Convert.ToInt32 (Console.ReadLine());
+            v2=Convert.ToInt32 (Console.ReadLine());
+            
+            multiplicar(v1,v2);
         }
 
         static void boasvindas()
@@ -24,6 +34,12 @@ namespace aula24
         {
             int res=n1+n2;
             Console.WriteLine("A soma de {0} e {1} é: {2}",n1,n2,res);
+        }
+
+        static void multiplicar(int n1, int n2)
+        {
+            int res=n1 * n2;
+            Console.WriteLine("A multiplicação de {0} e {1} é: {2}",n1,n2,res);          
         }
 
     }
