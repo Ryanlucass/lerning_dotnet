@@ -35,7 +35,7 @@ namespace aula24
 
         }
 
-        static void dobrar(int valor)
+        static void dobrar(ref int valor)
         {
             valor*=2;
         }
@@ -45,7 +45,7 @@ namespace aula24
             //chamando o método na função principal
             //quando chamar um método que possui argumento é necessário colocar o seu valor 
            
-           /*
+/*
             Console.WriteLine("Chamando o método soma: ");
             somar(13,34);
 
@@ -58,8 +58,9 @@ namespace aula24
             
             multiplicar(v1,v2);
 
-            */
+*/
 
+/*
             Console.WriteLine("Dividindo números");
 
             int v1,v2,r;
@@ -72,11 +73,12 @@ namespace aula24
             
             r=divisao(v1,v2);
             Console.WriteLine("A divisão de {0} e {1} é: {2}",v1,v2,r);  
-
+*/
 
             // passamos uma variável para dentro do método "dobrar"
+            //passagem por referência
             int num=10;
-            dobrar(num);
+            dobrar(ref num);
             Console.WriteLine(num);
 
 
