@@ -4,6 +4,7 @@ namespace aula24
 {
     class aula24
     {
+     // començando a trabalhar com 
         static void boasvindas()
         {
         //estou iniciando meu outro método, ele não tem argumentos de entrada, e nem retorna nada
@@ -39,6 +40,17 @@ namespace aula24
         {
             valor*=2;
         }
+
+        static int divide(int dividendo, int divisor, out int resto)
+        {
+            //aqui dentro ele só esta colocando as operações, ele não está definindo nenhum valor para a função
+            //ele irá fazer isso na função main.
+            int quociente;
+            quociente=dividendo/divisor;
+            resto=dividendo%divisor;
+            return quociente;
+        }
+
 
         static void Main()
         {
@@ -77,10 +89,17 @@ namespace aula24
 
             // passamos uma variável para dentro do método "dobrar"
             //passagem por referência
+            Console.WriteLine("Dobrando o número: ");
             int num=10;
             dobrar(ref num);
             Console.WriteLine(num);
 
+            int divid,divis,quoc,rest;
+            divid=10;
+            divis=5;
+            quoc=divide(divid,divis,out rest);
+
+            Console.WriteLine("{0}/{1}: quociente={2} e resto={3}",divid,divis,quoc,rest);
 
 
         }
