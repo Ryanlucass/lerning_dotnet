@@ -4,6 +4,42 @@ namespace aula24
 {
     class aula24
     {
+        static void boasvindas()
+        {
+        //estou iniciando meu outro método, ele não tem argumentos de entrada, e nem retorna nada
+        //para ele ser executado, ele precisa ser chamado na função principal "main"
+        Console.WriteLine("Seja bem-vindo");
+
+        }
+
+
+        static void somar(int n1, int n2)
+        {
+            //inicializando o método com parâmetros de entrada 
+            int res=n1+n2;
+            Console.WriteLine("A soma de {0} e {1} é: {2}",n1,n2,res);
+        }
+
+
+        static void multiplicar(int n1, int n2)
+        {
+            int res=n1 * n2;
+            Console.WriteLine("A multiplicação de {0} e {1} é: {2}",n1,n2,res);          
+        }
+        
+        static int divisao(int n1, int n2)
+        {
+            // definindo métodos que retornam alguma coisa, tenho que defirnir o seu tipo
+            int res=n1/n2;
+            return res;
+
+        }
+
+        static void dobrar(int valor)
+        {
+            valor*=2;
+        }
+
         static void Main()
         {
             //chamando o método na função principal
@@ -23,44 +59,28 @@ namespace aula24
             multiplicar(v1,v2);
 
             */
-            int v1,v2,r; 
-            
+
+            Console.WriteLine("Dividindo números");
+
+            int v1,v2,r;
+
+            Console.WriteLine("\ndigite o primeiro valor: ");
             v1=Convert.ToInt32 (Console.ReadLine());
+
+            Console.WriteLine("digite o segundo valor: ");
             v2=Convert.ToInt32 (Console.ReadLine());
+            
             r=divisao(v1,v2);
             Console.WriteLine("A divisão de {0} e {1} é: {2}",v1,v2,r);  
 
 
-        }
+            // passamos uma variável para dentro do método "dobrar"
+            int num=10;
+            dobrar(num);
+            Console.WriteLine(num);
 
-        static void boasvindas()
-        {
-        //estou iniciando meu outro método, ele não tem argumentos de entrada, e nem retorna nada
-        //para ele ser executado, ele precisa ser chamado na função principal "main"
 
-        Console.WriteLine("Seja bem-vindo");
 
         }
-        //inicializando o método com parâmetros de entrada 
-        static void somar(int n1, int n2)
-        {
-            int res=n1+n2;
-            Console.WriteLine("A soma de {0} e {1} é: {2}",n1,n2,res);
-        }
-
-        static void multiplicar(int n1, int n2)
-        {
-            int res=n1 * n2;
-            Console.WriteLine("A multiplicação de {0} e {1} é: {2}",n1,n2,res);          
-        }
-        
-        static int divisao(int n1, int n2)
-        {
-            // definindo métodos que retornam alguma coisa, tenho que defirnir o seu tipo
-            int res=n1/n2;
-            return res;
-
-        }
-
     }
 }
