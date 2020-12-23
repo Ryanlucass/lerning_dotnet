@@ -113,7 +113,10 @@ namespace aula24
 
             Console.WriteLine("{0}/{1}: quociente={2} e resto={3}",divid,divis,quoc,rest);
 */
-        console.WriteLine("digite o primeiro número: ");
+       
+        Console.WriteLine("digite o primeiro número: ");
+        int first = Convert.ToInt32(Console.ReadLine());
+
         adicionar(3,4);
 
 
