@@ -117,7 +117,10 @@ namespace aula24
         Console.WriteLine("digite o primeiro número: ");
         int first = Convert.ToInt32(Console.ReadLine());
 
-        adicionar(3,4);
+        Console.WriteLine("digite o segundo número: ");
+        int second = Convert.ToInt32(Console.ReadLine());
+
+        adicionar(first,second);
 
 
         }
