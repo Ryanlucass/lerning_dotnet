@@ -8,7 +8,7 @@ namespace classes
       public  int energia=100;
 //deixando o nosso objeto público "public"
        public bool vivo=true;
-
+    
     }
 
     public class aula28
@@ -20,6 +20,15 @@ namespace classes
             // Nome do meu objeto j1
             //operador new Jogador, istânciei um novo objeto da classe jogador
             Jogador j1=new Jogador();
+            Jogador j2=new Jogador();
+            Jogador j3=new Jogador();
+            Jogador j4=new Jogador();
+
+            j1.energia=50;
+            //altereando o valor do objeto por ele ser público
+
+            Console.WriteLine("A situação do jogador 1 é: {0} com a energia de: {1}",j1.vivo,j1.energia);
+            //como a propriedade está public, ele irá mostrar, energia e vivo
         }
     }
 
