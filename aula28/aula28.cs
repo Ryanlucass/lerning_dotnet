@@ -18,6 +18,8 @@ o onjetivo dele é inicializar as propriedades
 */
     public string nome;
 
+
+//método construtor
         public Jogador(string n){
 
         energia=100;
@@ -25,6 +27,7 @@ o onjetivo dele é inicializar as propriedades
         nome=n;
         }   
 
+//método destrutor
         ~Jogador(){
             Console.WriteLine("Jogador {0} foi destruído", nome);
         }
