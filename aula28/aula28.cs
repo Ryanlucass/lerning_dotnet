@@ -28,6 +28,9 @@ namespace classes
             //altereando o valor do objeto por ele ser público
 
             Console.WriteLine("A situação do jogador 1 é: {0} com a energia de: {1}",j1.vivo,j1.energia);
+            Console.WriteLine("A situação do jogador 2 é: {0} com a energia de: {1}",j2.vivo,j2.energia);
+            Console.WriteLine("A situação do jogador 3 é: {0} com a energia de: {1}",j3.vivo,j3.energia);
+            Console.WriteLine("A situação do jogador 4 é: {0} com a energia de: {1}",j4.vivo,j4.energia);
             //como a propriedade está public, ele irá mostrar, energia e vivo
         }
     }
