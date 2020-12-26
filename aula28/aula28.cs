@@ -5,10 +5,15 @@ namespace classes
     public class Jogador{
     //criando uma classe jogador.
       
-      public  int energia=100;
+      public  int energia;
 //deixando o nosso objeto público "public"
-       public bool vivo=true;
-    
+       public bool vivo;
+
+    public Jogador(){
+        energia=100;
+        vivo=true;
+    }   
+
     }
 
     public class aula28
