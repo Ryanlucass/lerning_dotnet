@@ -2,17 +2,32 @@
 
 namespace classes
 {
-    public class Jogador{
+public class Jogador{
     //criando uma classe jogador.
-      
-      public  int energia;
-//deixando o nosso objeto público "public"
-       public bool vivo;
+    public  int energia;
+    //deixando o nosso objeto público "public"
+    public bool vivo;
 
-    public Jogador(){
+/*
+// utilizando um método construtor 
+
+inicializar um objeto instânciado da classe
+o onjetivo dele é inicializar as propriedades 
+
+//se eu tenho um método que tem o mesmo nome da classe, esse é o método constutor 
+*/
+    public string nome;
+
+        public Jogador(string n){
+
         energia=100;
         vivo=true;
-    }   
+        nome=n;
+        }   
+
+        ~Jogador(){
+            Console.WriteLine("Jogador {0} foi destruído", nome);
+        }
 
     }
 
@@ -20,22 +35,29 @@ namespace classes
     {
         static void Main()
         {
+            // lendo o nome no teclado e adicionando a variável
+            string nome;
+            Console.WriteLine("Digite o nome do jogador 1: ");
+            nome=Console.ReadLine();
+
+
             //isntânciando um objeto, criando um objeto da classe jogador o j1
             //Jogador é a nossa classe
             // Nome do meu objeto j1
             //operador new Jogador, istânciei um novo objeto da classe jogador
-            Jogador j1=new Jogador();
-            Jogador j2=new Jogador();
-            Jogador j3=new Jogador();
-            Jogador j4=new Jogador();
+            Jogador j1=new Jogador(nome);
+            Jogador j2=new Jogador("Lucas");
+            Jogador j3=new Jogador("Mateus");
+            Jogador j4=new Jogador("Rafael");
 
-            j1.energia=50;
+           
             //altereando o valor do objeto por ele ser público
 
-            Console.WriteLine("A situação do jogador 1 é: {0} com a energia de: {1}",j1.vivo,j1.energia);
-            Console.WriteLine("A situação do jogador 2 é: {0} com a energia de: {1}",j2.vivo,j2.energia);
-            Console.WriteLine("A situação do jogador 3 é: {0} com a energia de: {1}",j3.vivo,j3.energia);
-            Console.WriteLine("A situação do jogador 4 é: {0} com a energia de: {1}",j4.vivo,j4.energia);
+            Console.WriteLine("A situação do jogador 1 é: {0} com a energia de: {1} e nome: {2}",j1.vivo,j1.energia,j1.nome);
+            Console.WriteLine("A situação do jogador 2 é: {0} com a energia de: {1} e nome: {2}",j2.vivo,j2.energia,j2.nome);
+            Console.WriteLine("A situação do jogador 3 é: {0} com a energia de: {1} e nome: {2}",j3.vivo,j3.energia,j3.nome);
+            Console.WriteLine("A situação do jogador 4 é: {0} com a energia de: {1} e nome: {2}",j4.vivo,j4.energia,j4.nome);
+            
             //como a propriedade está public, ele irá mostrar, energia e vivo
         }
     }
