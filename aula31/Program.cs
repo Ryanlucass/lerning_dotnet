@@ -34,7 +34,7 @@ namespace classe_static
 
     class Inimigo
     {
-        public bool alerta;
+        static public bool alerta;
         public string nome;
 
         public Inimigo(string n){
@@ -58,6 +58,9 @@ namespace classe_static
             Inimigo i1=new Inimigo("doidoo");
             Inimigo i2=new Inimigo("doidim");
             Inimigo i3=new Inimigo("pernalonga");
+
+            Inimigo.alerta=true;
+            //pq ele recebe da classe 
 
             i1.infoenemy();
             i2.infoenemy();
