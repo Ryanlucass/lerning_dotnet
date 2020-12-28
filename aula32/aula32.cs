@@ -31,7 +31,9 @@ namespace aula32
             Calculos c=new Calculos(10,2);
 
             //quando é retorno eu preciso definir uma variável com o valor
-            Console.WriteLine(c.Somar());
+            //Console.WriteLine(c);
+            
+           Console.WriteLine(c.Somar());
             
         }
     }
