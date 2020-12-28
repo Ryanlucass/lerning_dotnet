@@ -61,7 +61,7 @@ o onjetivo dele é inicializar as propriedades
         {
            
             Jogador j1=new Jogador();
-            Jogador j2=new Jogador("Lucas");
+            Jogador j2=new Jogador("Lucas",34);
             Jogador j3=new Jogador("Théo",55);
             Jogador j4=new Jogador("Théo",0,false);
 
