@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace classes
+namespace aula29
 {
 public class Jogador{
     //criando uma classe jogador.
