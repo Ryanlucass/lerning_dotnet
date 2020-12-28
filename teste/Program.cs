@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace lerning_dotnet
+namespace ldd
 {
     class Program
     {

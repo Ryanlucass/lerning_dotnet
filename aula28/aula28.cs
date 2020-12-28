@@ -7,6 +7,7 @@ public class Jogador{
     public  int energia;
     //deixando o nosso objeto público "public"
     public bool vivo;
+    public string nome;
 
 /*
 // utilizando um método construtor 
@@ -16,7 +17,6 @@ o onjetivo dele é inicializar as propriedades
 
 //se eu tenho um método que tem o mesmo nome da classe, esse é o método constutor 
 */
-    public string nome;
 
 
 //método construtor
