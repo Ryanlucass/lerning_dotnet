@@ -27,7 +27,7 @@ namespace aula34 //trabalhando com herança
 
     }
 
-    class Carro:Veiculo{
+    class Carro:Veiculo{ //Classe derivada
         public string nome;
         public string cor;
 
@@ -49,11 +49,11 @@ namespace aula34 //trabalhando com herança
         {
          Carro c1=new Carro("Chevete","Vermelho");
 
-         Console.WriteLine("Cor:.......{0}",c1.cor);
-         Console.WriteLine("Nome:......{0}",c1.nome);
-         Console.WriteLine("Rodas:.....{0}",c1.rodas);
-         Console.WriteLine("Vel.Maxima:{0}",c1.velMax);
-         Console.WriteLine("Ligado.....{0}",c1.getLigado());  
+         Console.WriteLine("Cor:...............{0}",c1.cor);
+         Console.WriteLine("Nome:..............{0}",c1.nome);
+         Console.WriteLine("Tamanho Rodas:.....{0}",c1.rodas);
+         Console.WriteLine("Vel.Maxima:........{0}",c1.velMax);
+         Console.WriteLine("Ligado.............{0}",c1.getLigado());  
         }
     }
 
