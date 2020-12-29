@@ -70,8 +70,8 @@ namespace aula33
         {
             Jogador j1 =new Jogador("Bruno");
             
-            j1.setEnergia(-20);
-            j1.setEnergia(-20);
+            j1.setEnergia(10);
+            
 
 
             Console.WriteLine("Nome.......:{0}",j1.getNome());
