@@ -4,9 +4,16 @@ namespace aula35 //trabalhando com herança
 {
     class Veiculo //classe base
     {
-        public int rodas;
+        private int rodas;
         public int velMax;
         private bool ligado;
+        
+        
+        public Veiculo(int rodas)
+        {
+            this.rodas=rodas;
+        }
+        
         public void ligar(){
             ligado=true;
         }
@@ -23,6 +30,10 @@ namespace aula35 //trabalhando com herança
                 return "não";
             }
             
+        }
+
+        public int getRodas(){
+            return rodas;
         }
 
     }
@@ -51,7 +62,7 @@ namespace aula35 //trabalhando com herança
 
          Console.WriteLine("Cor:...............{0}",c1.cor);
          Console.WriteLine("Nome:..............{0}",c1.nome);
-         Console.WriteLine("Tamanho Rodas:.....{0}",c1.rodas);
+         Console.WriteLine("Tamanho Rodas:.....{0}",c1.getRodas());
          Console.WriteLine("Vel.Maxima:........{0}",c1.velMax);
          Console.WriteLine("Ligado.............{0}",c1.getLigado());  
         }
