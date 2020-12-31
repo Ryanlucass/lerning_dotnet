@@ -46,7 +46,7 @@ namespace aula35 //trabalhando com herança
         public Carro(String nome,string cor)
         {
         //Não consigo usar o objeto ligado, já que ele é private. mesmo sendo herdado.
-        //para
+        //para isso eu preciso fazer uma função public que retorne meu objeto 
             desligar();
             rodas=4;
             velMax=120;
