@@ -48,7 +48,7 @@ namespace aula35 //trabalhando com herança
         //Não consigo usar o objeto ligado, já que ele é private. mesmo sendo herdado.
         //para isso eu preciso fazer uma função public que retorne meu objeto 
             desligar();
-            rodas=4;
+            getRodas();
             velMax=120;
             this.nome=nome;
             this.cor=cor;
