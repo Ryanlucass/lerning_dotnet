@@ -6,6 +6,7 @@ namespace aula35 //trabalhando com herança
     class Veiculo //classe base
     {
         private int rodas;
+
         public int velMax;
         private bool ligado;
         
