@@ -2,13 +2,14 @@
 
 namespace aula35 //trabalhando com herança
 {
+    
     class Veiculo //classe base
     {
         private int rodas;
         public int velMax;
         private bool ligado;
         
-        
+        //construtor 
         public Veiculo(int rodas)
         {
             this.rodas=rodas;
@@ -23,13 +24,8 @@ namespace aula35 //trabalhando com herança
 
         public string getLigado()
         {
-            if(ligado){
-                return "sim";
-            }else
-            {
-                return "não";
-            }
-            
+            //utilizando opearadores ternários
+            return (ligado?"sim":"não");
         }
 
         public int getRodas(){
@@ -43,12 +39,11 @@ namespace aula35 //trabalhando com herança
         public string cor;
 
     
-        public Carro(String nome,string cor)
+        public Carro(String nome, string cor):base(4)
         {
         //Não consigo usar o objeto ligado, já que ele é private. mesmo sendo herdado.
         //para isso eu preciso fazer uma função public que retorne meu objeto 
-            desligar();
-            getRodas();
+            ligar();
             velMax=120;
             this.nome=nome;
             this.cor=cor;
