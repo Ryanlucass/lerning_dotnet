@@ -44,7 +44,7 @@ namespace aula35 //trabalhando com herança
         {
         //Não consigo usar o objeto ligado, já que ele é private. mesmo sendo herdado.
         //para isso eu preciso fazer uma função public que retorne meu objeto 
-            ligar();
+            desligar();
             velMax=120;
             this.nome=nome;
             this.cor=cor;
@@ -56,6 +56,8 @@ namespace aula35 //trabalhando com herança
         static void Main()
         {
          Carro c1=new Carro("Chevete","Vermelho");
+         
+         c1.ligar();
 
          Console.WriteLine("Cor:...............{0}",c1.cor);
          Console.WriteLine("Nome:..............{0}",c1.nome);
