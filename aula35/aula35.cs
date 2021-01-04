@@ -5,8 +5,9 @@ namespace aula35 //trabalhando com herança
     
     class Veiculo //classe base
     {
-        private int rodas;
 
+        //definindos objetos 
+        private int rodas;
         public int velMax;
         private bool ligado;
         
@@ -49,7 +50,7 @@ namespace aula35 //trabalhando com herança
         public string nome;
         public string cor;
 
-    
+        //construtor
         public Carro(String nome, string cor):base(4)
         {
         //QUANDO VOCÊ HERDA UMA CLASSE, VOCÊ PRECISA OBSERVAR OS CONTRUTORES, SE ELES PRECISAREM DE PARAMETROS
