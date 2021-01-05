@@ -16,8 +16,8 @@ namespace aula36
         ligado=false; 
         }
 
-        public bool getLigado(){
-            return ligado;
+        public string getLigado(){
+            return (ligado?"sim":"não");
         }
 
         public int getVelmax(){
@@ -45,7 +45,7 @@ namespace aula36
 
             Console.WriteLine("Nome...........{0}",carr_01.nome);
             Console.WriteLine("Vel.Máxima.....{0}",carr_01.getVelmax());
-            Console.WriteLine("Ligado.........{0}",carr_01.ligado);
+            Console.WriteLine("Ligado.........{0}",carr_01.getLigado());
         }
     }
 }
