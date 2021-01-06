@@ -16,11 +16,19 @@ namespace aula39
         velAtual=0;
         veLmax=100;
       }
+      public void setLigado(bool conectado)
+      {
+        conectado=ligado;
+      }
+
+      abstract public void setVelAtual(int velocidade)
+      {
+
+      }
 
 
 
 
-      
     }
     
     
