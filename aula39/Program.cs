@@ -30,6 +30,19 @@ namespace aula39
 
 
     }
+    class Carro:Veiculo
+    {
+       public Carro(){
+           veLmax:120;
+
+       }
+        override public void setVelAtual(int velocidade){
+            velAtual+=10*velocidade; 
+      }
+
+
+
+    }
     
     
     class Program
