@@ -6,37 +6,77 @@ namespace rcn
 //defina (onde se aplique) os métodos: LigarMotor(), Emplacar(), Acelerar() e Frear().
 //Crie uma lista com 10 veículos considerando todas as classes criadas anteriormente, percorra cada Veículo e execute //os métodos aplicaveis a cada um.
 
+ 
 
-    abstract class Veiculo{
-        
+    class Veiculos{//Classe base 
+
+//      public int veloMotor;
+
+/*
+        public Veiculos(int veloAtual){//criando construtor para definir valores 
+            veloMotor=veloAtual;
+        }
+
+*/
+        public bool ligado;
+        public bool emplacado;
+        public bool acelerando;
+
+        public bool frear;
+        public void LigarMotor(){
+            ligado=true;
+        }
+        public void Emplacar(){
+            emplacado=true;
+        }
+        public void Acelerar(){
+            acelerando=true;
+        }
+        public void Frear(){
+            frear=true;
+        }
     }
 
+    class Carro:Veiculos{
 
 
+    }
+    class Moto:Veiculos{
 
+    }
+    class Bicicleta:Veiculos{
 
-
-
-
-
-
-
-
+    }
     class Program
     {
         static void Main()
         {
-            
+        
+        //Veículos pessados separei para uma maior compreensão 
+        Veiculos caminhao=new Veiculos();
+        Veiculos caminhote=new Veiculos();
+        Veiculos caminhao=new Veiculos();
+        Veiculos onibus=new Veiculos();
+        
+        //Veículos com duas rodas, que possuem motor 
+        Moto ciclomotor=new Moto();
+        Moto moto=new Moto();
+        Moto motoneta=new Moto();
+        
+        //Veículo "leve" de quatro rodas
+        Carro carro=new Carro();
+        
+        //veículos que não possuem motor 
+        Bicicleta bicicleta=new Bicicleta();
+        Bicicleta cargueira=new Bicicleta();
+
+        Console.WriteLine("{0}",caminhao.LigarMotor());
+
+
+
+
         }
     }
-
-
-
-
-
-
-
-
 
 
 }
