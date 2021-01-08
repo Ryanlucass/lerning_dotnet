@@ -18,23 +18,27 @@ namespace rcn
         }
 
 */
-        public bool ligado;
-        public string emplacado;
-        public bool acelerando;
+    
+        public string LigarMotor(){
+          return "Motor ligado";
+        }
+        public string Emplacar(){
+            return "Emplacado(a)";
+        }
+        public string Acelerar(){
+            return "Acelerando";
+        }
+        public string Frear(){
+           return "Está Freando";
 
-        public bool frear;
-        public void LigarMotor(){
-            ligado=true;
         }
-        public void Emplacar(){
-            "O veículo está emplacado";
-        }
-        public void Acelerar(){
-            acelerando=true;
-        }
-        public void Frear(){
-            frear=true;
 
+        public void TesteVeiculoMotor(){
+            Console.WriteLine("Fazendo o teste: {0} , {1} , {2},  {3}",Emplacar(),LigarMotor(),Acelerar(),Frear());
+        }
+
+        public void TesteVeiculo(){
+            Console.WriteLine("Fazendo o teste: {0} , {1} , {2}",Emplacar(),Acelerar(),Frear());
         }
     }
 
@@ -74,8 +78,34 @@ namespace rcn
         
 
         Console.WriteLine("----Caminhão-----");
+        caminhao.TesteVeiculoMotor();
 
-        caminhao.Emplacar();
+        Console.WriteLine("----Caminhote----");
+        caminhote.TesteVeiculoMotor();
+
+        Console.WriteLine("----Ônibus----");
+        onibus.TesteVeiculoMotor();
+
+        Console.WriteLine("----Ciclomotor----");
+        ciclomotor.TesteVeiculoMotor();
+
+        Console.WriteLine("----Ciclomotor----");
+        ciclomotor.TesteVeiculoMotor();
+       
+        Console.WriteLine("----moto----");
+        moto.TesteVeiculoMotor();
+       
+        Console.WriteLine("----motoneta----");
+        motoneta.TesteVeiculoMotor();
+
+        Console.WriteLine("----bicicleta----");
+        bicicleta.TesteVeiculo();
+        
+        Console.WriteLine("----Cargueira----");
+        cargueira.TesteVeiculo();
+        
+        Console.WriteLine("----Skate----");
+        skate.TesteVeiculo();
 
 
         }
