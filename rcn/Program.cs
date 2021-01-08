@@ -19,7 +19,7 @@ namespace rcn
 
 */
         public bool ligado;
-        public bool emplacado;
+        public string emplacado;
         public bool acelerando;
 
         public bool frear;
@@ -27,13 +27,14 @@ namespace rcn
             ligado=true;
         }
         public void Emplacar(){
-            emplacado=true;
+            "O veículo está emplacado";
         }
         public void Acelerar(){
             acelerando=true;
         }
         public void Frear(){
             frear=true;
+
         }
     }
 
@@ -55,7 +56,6 @@ namespace rcn
         //Veículos pessados separei para uma maior compreensão 
         Veiculos caminhao=new Veiculos();
         Veiculos caminhote=new Veiculos();
-        Veiculos caminhao=new Veiculos();
         Veiculos onibus=new Veiculos();
         
         //Veículos com duas rodas, que possuem motor 
@@ -69,10 +69,13 @@ namespace rcn
         //veículos que não possuem motor 
         Bicicleta bicicleta=new Bicicleta();
         Bicicleta cargueira=new Bicicleta();
+        Bicicleta skate=new Bicicleta();
 
-        Console.WriteLine("{0}",caminhao.LigarMotor());
+        
 
+        Console.WriteLine("----Caminhão-----");
 
+        caminhao.Emplacar();
 
 
         }
@@ -80,3 +83,5 @@ namespace rcn
 
 
 }
+ //chaci="preto";
+   //         placa="RIO2A18";
