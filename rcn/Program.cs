@@ -25,11 +25,11 @@ namespace rcn
         }
 
         public void TesteVeiculoMotor(){
-            Console.WriteLine("Fazendo o teste: {0} , {1} , {2},  {3}",Emplacar(),LigarMotor(),Acelerar(),Frear());
+            Console.WriteLine("Fazendo o teste: {0} , {1} , {2},  {3}\n",Emplacar(),LigarMotor(),Acelerar(),Frear());
         }
 
         public void TesteVeiculo(){
-            Console.WriteLine("Fazendo o teste: {0} , {1} , {2}",Emplacar(),Acelerar(),Frear());
+            Console.WriteLine("Fazendo o teste: {0} , {1} , {2}\n",Emplacar(),Acelerar(),Frear());
         }
     }
 
@@ -74,28 +74,28 @@ namespace rcn
         Console.WriteLine("Caminhote:\n");
         caminhote.TesteVeiculoMotor();
 
-        Console.WriteLine("----Ônibus----\n");
+        Console.WriteLine("Ônibus:\n");
         onibus.TesteVeiculoMotor();
 
-        Console.WriteLine("----Ciclomotor----\n");
+        Console.WriteLine("Ciclomotor:\n");
         ciclomotor.TesteVeiculoMotor();
 
-        Console.WriteLine("----Ciclomotor----\n");
+        Console.WriteLine("Ciclomotor:\n");
         ciclomotor.TesteVeiculoMotor();
        
-        Console.WriteLine("----moto----\n");
+        Console.WriteLine("moto:\n");
         moto.TesteVeiculoMotor();
        
-        Console.WriteLine("----motoneta----\n");
+        Console.WriteLine("motoneta:\n");
         motoneta.TesteVeiculoMotor();
 
-        Console.WriteLine("----bicicleta----\n");
+        Console.WriteLine("bicicleta:\n");
         bicicleta.TesteVeiculo();
         
-        Console.WriteLine("----Cargueira----\n");
+        Console.WriteLine("Cargueira:\n");
         cargueira.TesteVeiculo();
         
-        Console.WriteLine("----Skate----\n");
+        Console.WriteLine("Skate:\n");
         skate.TesteVeiculo();
 
 
