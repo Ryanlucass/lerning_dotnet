@@ -9,15 +9,6 @@ namespace rcn
  
 
     class Veiculos{//Classe base 
-
-//      public int veloMotor;
-
-/*
-        public Veiculos(int veloAtual){//criando construtor para definir valores 
-            veloMotor=veloAtual;
-        }
-
-*/
     
         public string LigarMotor(){
           return "Motor ligado";
@@ -77,7 +68,7 @@ namespace rcn
 
         
 
-        Console.WriteLine("----Caminhão-----");
+        Console.WriteLine("Caminhão:");
         caminhao.TesteVeiculoMotor();
 
         Console.WriteLine("----Caminhote----");
