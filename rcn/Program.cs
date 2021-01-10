@@ -68,34 +68,34 @@ namespace rcn
 
         
 
-        Console.WriteLine("Caminhão:");
+        Console.WriteLine("Caminhão:\n");
         caminhao.TesteVeiculoMotor();
 
-        Console.WriteLine("----Caminhote----");
+        Console.WriteLine("Caminhote:\n");
         caminhote.TesteVeiculoMotor();
 
-        Console.WriteLine("----Ônibus----");
+        Console.WriteLine("----Ônibus----\n");
         onibus.TesteVeiculoMotor();
 
-        Console.WriteLine("----Ciclomotor----");
+        Console.WriteLine("----Ciclomotor----\n");
         ciclomotor.TesteVeiculoMotor();
 
-        Console.WriteLine("----Ciclomotor----");
+        Console.WriteLine("----Ciclomotor----\n");
         ciclomotor.TesteVeiculoMotor();
        
-        Console.WriteLine("----moto----");
+        Console.WriteLine("----moto----\n");
         moto.TesteVeiculoMotor();
        
-        Console.WriteLine("----motoneta----");
+        Console.WriteLine("----motoneta----\n");
         motoneta.TesteVeiculoMotor();
 
-        Console.WriteLine("----bicicleta----");
+        Console.WriteLine("----bicicleta----\n");
         bicicleta.TesteVeiculo();
         
-        Console.WriteLine("----Cargueira----");
+        Console.WriteLine("----Cargueira----\n");
         cargueira.TesteVeiculo();
         
-        Console.WriteLine("----Skate----");
+        Console.WriteLine("----Skate----\n");
         skate.TesteVeiculo();
 
 
