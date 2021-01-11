@@ -12,7 +12,7 @@ namespace aula41
                 return Velmax;
             
             }set{
-                if(value < 0){
+                if(value < 0){//value: valor passado
                     Velmax=0;
                 }
                 else if (value > 300){
@@ -23,8 +23,8 @@ namespace aula41
             }
         }
        
-       
-        public Carro(){
+
+        public Carro(){//construtor 
             vm=120;
         }
 
