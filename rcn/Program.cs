@@ -47,6 +47,9 @@ namespace rcn
     {
         static void Main()
         {
+
+
+        //Instânciando os objetos 
         
         //Veículos pessados separei para uma maior compreensão 
         Veiculos caminhao=new Veiculos();
@@ -67,6 +70,7 @@ namespace rcn
         Bicicleta skate=new Bicicleta();
 
         
+        //Chamando as funções 
 
         Console.WriteLine("Caminhão:\n");
         caminhao.TesteVeiculoMotor();
