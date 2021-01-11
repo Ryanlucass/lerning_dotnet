@@ -33,6 +33,7 @@ namespace rcn
         }
     }
 
+    //Classes derivadas herdando de veículos 
     class Carro:Veiculos{
 
 
@@ -47,7 +48,6 @@ namespace rcn
     {
         static void Main()
         {
-
 
         //Instânciando os objetos 
         
@@ -108,5 +108,3 @@ namespace rcn
 
 
 }
- //chaci="preto";
-   //         placa="RIO2A18";
