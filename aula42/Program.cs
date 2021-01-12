@@ -38,8 +38,8 @@ namespace aula42
         {
             Carro c1=new Carro();
 
-            
-            Console.WriteLine("Velocidade...{0}",c1[0]);
+            c1[4]=120;
+            Console.WriteLine("Velocidade...{0}",c1[4]);
         }
     }
 
