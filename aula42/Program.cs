@@ -22,11 +22,12 @@ namespace aula42
             }
         }
        
-
+    /*
         public Carro(){//construtor 
         
         }
 
+    */
 
     }
 
@@ -37,8 +38,8 @@ namespace aula42
         {
             Carro c1=new Carro();
 
-            c1[4]=455;
-            Console.WriteLine("Velocidade...{0}",c1.vm);
+            
+            Console.WriteLine("Velocidade...{0}",c1[0]);
         }
     }
 
