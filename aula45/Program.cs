@@ -39,12 +39,23 @@ namespace aula45
             maquinas[1].nome="torrone";
             maquinas[1].armas="canhão";
             maquinas[1].sistema_operacional="windows";
+
+            maquinas[2].nome="bambilim";
+            maquinas[2].armas="taco de golf";
+            maquinas[2].sistema_operacional="MacOS";
+
+            maquinas[3].nome="trava trava ";
+            maquinas[3].armas="38";
+            maquinas[3].sistema_operacional="Android";
+
+            maquinas[4].nome="riquinho";
+            maquinas[4].armas="katana";
+            maquinas[4].sistema_operacional="IOS";
             
 
-
-            r1.info();
-            r2.info();
-            r3.info();
+            for( int i=0; i<maquinas.Length; i++){
+                maquinas[i].info();
+            }
         }
     }
 
