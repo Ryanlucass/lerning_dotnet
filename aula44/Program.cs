@@ -20,7 +20,7 @@ namespace aula44
             Console.WriteLine("Nome........{0}",this.nome);
             Console.WriteLine("Armas.......{0}",this.armas);
             Console.WriteLine("S.O.........{0}",this.sistema_operacional);
-            Console.WriteLine("--------------");
+            Console.WriteLine("--------------\n");
         }
 
     }
