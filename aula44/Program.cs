@@ -15,23 +15,30 @@ namespace aula44
             this.sistema_operacional=sistema_operacional;
             this.nome=nome;
         }
+        public void info(){
+            //chamando uma método eclusivamente para guaradr as informações 
+            Console.WriteLine("Nome........{0}",this.nome);
+            Console.WriteLine("Armas.......{0}",this.armas);
+            Console.WriteLine("S.O.........{0}",this.sistema_operacional);
+        }
 
-    }    
+    }
+
+     
         
     class Program
     {
         static void Main()
         {
-    
-            Robo r1;
+            //instânciando um novo objeto no construtor que recebe argumentos para cada robo 
+            Robo r1=new Robo("Máquina de guerra","Metralhadora","Linux\n");
+            Robo r2=new Robo("Ferreirinha","Taco de basebal","Windows\n");
+            Robo r3=new Robo("Tuque tuque","Katana","MacOs\n");
 
-            r1.nome  = "Treme-Treme";
-            r1.armas = "Sabre de luz";
-            r1.sistema_operacional = "IOS";
-
-            Console.WriteLine("Nome........{0}",r1.nome);
-            Console.WriteLine("Armas.......{0}",r1.armas);
-            Console.WriteLine("S.O.........{0}",r1.sistema_operacional);
+            //Apenas chamanado as funções 
+            r1.info();
+            r2.info();
+            r3.info();
         }
     }
 
