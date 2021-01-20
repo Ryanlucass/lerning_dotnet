@@ -30,7 +30,7 @@ namespace aula45
             int[] numeros =new int [10];
         
             Robo[] maquinas = new Robo[5];
-            //Apenas chamanado as funções 
+            //Apenas chamanado as funções colocando a posição do array de valor 5 
 
             maquinas[0].nome="batatinha";
             maquinas[0].armas="pistola";
@@ -52,7 +52,7 @@ namespace aula45
             maquinas[4].armas="katana";
             maquinas[4].sistema_operacional="IOS";
             
-
+            //criando um ciclo for para chamar as informações.
             for( int i=0; i<maquinas.Length; i++){
                 maquinas[i].info();
             }
