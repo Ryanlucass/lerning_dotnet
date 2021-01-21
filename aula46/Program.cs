@@ -5,20 +5,26 @@ namespace aula46
 
     class Galinha{
 
-        private string NomeGalinha;
-        private int QuantidadeOvo;
+        public string NomeGalinha;
+        public int QuantidadeOvo;
+
+        static public int Totaleggs;
 
 
         public Galinha(string NomeGalinha){//definindo os valores para os argumentos e objetos 
             this.NomeGalinha=NomeGalinha;
             QuantidadeOvo=0;
+            Totaleggs=0;
         }
 
         //criando o método que vai retornar o objeto
         public Ovo botar(){// ele retorna um objeto ovo  
             QuantidadeOvo++;
-            return new Ovo(QuantidadeOvo, NomeGalinha);
+            Totaleggs++;
+            return new Ovo(QuantidadeOvo, NomeGalinha, Totaleggs);
         }
+
+        
 
 
 
@@ -28,11 +34,14 @@ namespace aula46
         
         private int numOvo;
         private string minhaGalinha;
-        public Ovo(int numOvo, string minhaGalinha){//construtor 
+
+        private int total;
+        public Ovo(int numOvo, string minhaGalinha, int total){//construtor 
         //toda vez que eu chamar ovo, ele vai dizer que está criado
             this.numOvo=numOvo;
             this.minhaGalinha=minhaGalinha;
-            Console.WriteLine("Ovo criado");
+            this.total=total;
+            Console.WriteLine("Ovo criado: {0} - {1} número total de ovos {2}",this.numOvo, this.minhaGalinha,this.total);
         }
 
 
@@ -45,8 +54,17 @@ namespace aula46
         static void Main()
         {
             Galinha g1=new Galinha("Benedita");
+            Galinha g2=new Galinha("Corcelia");
 
             g1.botar();
+            g1.botar();
+            g1.botar();
+
+            g2.botar();
+            g2.botar();
+
+            
+        
         }
     }
 
