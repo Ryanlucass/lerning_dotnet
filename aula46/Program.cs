@@ -41,7 +41,7 @@ namespace aula46
             this.numOvo=numOvo;
             this.minhaGalinha=minhaGalinha;
             this.total=total;
-            Console.WriteLine("Ovo criado: {0} - {1} número total de ovos {2}",this.numOvo, this.minhaGalinha,this.total);
+            Console.WriteLine("Quantidade de ovos criados pela {0}: {1}, Número total de ovos no armazem: {2}",this.minhaGalinha, this.numOvo,this.total);
         }
 
 
