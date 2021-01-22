@@ -21,7 +21,7 @@ namespace aula46
         public Ovo botar(){// ele retorna um objeto ovo  
             QuantidadeOvo++;
             Totaleggs++;
-            return new Ovo(QuantidadeOvo, NomeGalinha, Totaleggs);
+            return new Ovo(QuantidadeOvo, NomeGalinha);
         }
 
         
@@ -35,13 +35,11 @@ namespace aula46
         private int numOvo;
         private string minhaGalinha;
 
-        private int total;
-        public Ovo(int numOvo, string minhaGalinha, int total){//construtor 
+        public Ovo(int numOvo, string minhaGalinha){//construtor 
         //toda vez que eu chamar ovo, ele vai dizer que está criado
             this.numOvo=numOvo;
             this.minhaGalinha=minhaGalinha;
-            this.total=total;
-            Console.WriteLine("Quantidade de ovos criados pela Galinha {0}: {1}, Número total de ovos no armazem: {2}",this.minhaGalinha, this.numOvo,this.total);
+            Console.WriteLine("Quantidade de ovos criados pela Galinha {0}: {1}",this.minhaGalinha, this.numOvo);
         }
 
 
@@ -63,6 +61,7 @@ namespace aula46
             g2.botar();
             g2.botar();
 
+            Console.WriteLine("\nQuantidade total de ovos criados: {0}",Galinha.Totaleggs);
             
         
         }
