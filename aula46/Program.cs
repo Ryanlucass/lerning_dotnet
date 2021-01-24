@@ -53,6 +53,7 @@ namespace aula46
         {
             Galinha g1=new Galinha("Benedita");
             Galinha g2=new Galinha("Corcelia");
+            Galinha g3=new Galinha("Tramulha");
 
             g1.botar();
             g1.botar();
@@ -60,6 +61,8 @@ namespace aula46
 
             g2.botar();
             g2.botar();
+
+            g3.botar();
 
             Console.WriteLine("\nQuantidade total de ovos criados: {0}",Galinha.Totaleggs);
             
