@@ -33,7 +33,7 @@ namespace aula48
             int n = Convert.ToInt32(Console.ReadLine());
             
             int res = fac.fatorial(n);
-            Console.WriteLine(res);
+            Console.WriteLine("O Resultado do fatorial de {0} é: {1}",n,res);
         }
     }
 }
