@@ -8,24 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Aula60
+namespace Componentes
 {
-    public partial class F_Principal : Form
+    public partial class f_principal : Form
     {
-        public F_Principal()
+        public f_principal()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
-         }
-
-        //Apertando no botão  "OK"
-        private void btn_ok_Click(object sender, EventArgs e)
-        {
-            lb_link.Text = tb_text.Text;
         }
     }
 }
