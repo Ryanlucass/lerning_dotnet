@@ -23,6 +23,7 @@ namespace Aula60
          }
 
         //Apertando no botão  "OK"
+        //ele vai trocar o nome que está lá em cima e anexar em baixo
         private void btn_ok_Click(object sender, EventArgs e)
         {
             lb_link.Text = tb_text.Text;
