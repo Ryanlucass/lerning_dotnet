@@ -25,6 +25,12 @@ namespace Componentes
                 tb_veiculo.Focus();
                 return; //para a execução do evento
             }
+            if (tb_lista_veiculos.Text==tb_veiculo.Text)
+            {
+                MessageBox.Show("Você já adicionou este veículo");
+                tb_veiculo.Focus();
+                return;
+            }
             tb_lista_veiculos.Text += tb_veiculo.Text + ", ";
             //desse modo ele vai concatenar o texto e não substituílo
             tb_veiculo.Clear();
