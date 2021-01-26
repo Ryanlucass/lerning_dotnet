@@ -64,6 +64,7 @@ namespace Componentes
             // 
             // tb_lista_veiculos
             // 
+            this.tb_lista_veiculos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tb_lista_veiculos.Location = new System.Drawing.Point(12, 58);
             this.tb_lista_veiculos.Multiline = true;
             this.tb_lista_veiculos.Name = "tb_lista_veiculos";
@@ -78,6 +79,7 @@ namespace Componentes
             this.button1.TabIndex = 4;
             this.button1.Text = "Limpar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // F_Principal
             // 
