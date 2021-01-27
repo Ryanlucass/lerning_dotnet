@@ -1,0 +1,10 @@
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\part2\Aula60\Aula60\bin\Debug\Aula60.exe.config
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\part2\Aula60\Aula60\bin\Debug\Aula60.exe
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\part2\Aula60\Aula60\bin\Debug\Aula60.pdb
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\part2\Aula60\Aula60\obj\Debug\Aula60.csprojAssemblyReference.cache
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\part2\Aula60\Aula60\obj\Debug\Aula60.F_Principal.resources
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\part2\Aula60\Aula60\obj\Debug\Aula60.Properties.Resources.resources
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\part2\Aula60\Aula60\obj\Debug\Aula60.csproj.GenerateResource.cache
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\part2\Aula60\Aula60\obj\Debug\Aula60.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\part2\Aula60\Aula60\obj\Debug\Aula60.exe
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\part2\Aula60\Aula60\obj\Debug\Aula60.pdb

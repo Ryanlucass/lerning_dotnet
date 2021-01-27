@@ -1,0 +1,16 @@
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\rcn\obj\Debug\net5.0\rcn.csprojAssemblyReference.cache
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\rcn\obj\Debug\net5.0\rcn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\rcn\obj\Debug\net5.0\rcn.AssemblyInfoInputs.cache
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\rcn\obj\Debug\net5.0\rcn.AssemblyInfo.cs
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\rcn\obj\Debug\net5.0\rcn.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\rcn\bin\Debug\net5.0\rcn.exe
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\rcn\bin\Debug\net5.0\rcn.deps.json
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\rcn\bin\Debug\net5.0\rcn.runtimeconfig.json
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\rcn\bin\Debug\net5.0\rcn.runtimeconfig.dev.json
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\rcn\bin\Debug\net5.0\rcn.dll
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\rcn\bin\Debug\net5.0\ref\rcn.dll
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\rcn\bin\Debug\net5.0\rcn.pdb
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\rcn\obj\Debug\net5.0\rcn.dll
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\rcn\obj\Debug\net5.0\ref\rcn.dll
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\rcn\obj\Debug\net5.0\rcn.pdb
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\rcn\obj\Debug\net5.0\rcn.genruntimeconfig.cache
