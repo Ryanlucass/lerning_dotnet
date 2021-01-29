@@ -14,7 +14,14 @@ namespace Componentes
     {
         public F_Veiculos()
         {
-            InitializeComponent();
+            InitializeComponent(string v);
+
+            tb_listaVeiculos.Text = v;
+        }
+
+        private void F_Veiculos_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

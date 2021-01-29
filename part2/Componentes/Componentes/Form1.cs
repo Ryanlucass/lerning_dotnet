@@ -51,8 +51,9 @@ namespace Componentes
 
         private void btn_mostrar_Click(object sender, EventArgs e)
         {
-            F_Veiculos f_Veiculos = new F_Veiculos(); //Criando um objeto da classe F_veiculos "f_veiculos".
-            f_Veiculos.ShowDialog();
+            F_Veiculos f_Veiculos = new F_Veiculos(tb_lista_veiculos.Text); //Criando um objeto da classe F_veiculos "f_veiculos".
+                                                                           // precisa de argumento de entrada que eu coloquei lá no F_veiculos
+            f_Veiculos.ShowDialog(); //show dialog ele não me deixa fechar o formulário anterior até o primeiro seja sanado 
         }
     }
 }

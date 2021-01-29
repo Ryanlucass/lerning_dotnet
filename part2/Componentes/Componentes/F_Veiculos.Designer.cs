@@ -29,21 +29,36 @@ namespace Componentes
         /// </summary>
         private void InitializeComponent()
         {
+            this.tb_listaVeiculos = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
+            // 
+            // tb_listaVeiculos
+            // 
+            this.tb_listaVeiculos.Location = new System.Drawing.Point(12, 12);
+            this.tb_listaVeiculos.Multiline = true;
+            this.tb_listaVeiculos.Name = "tb_listaVeiculos";
+            this.tb_listaVeiculos.Size = new System.Drawing.Size(398, 423);
+            this.tb_listaVeiculos.TabIndex = 0;
             // 
             // F_Veiculos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(422, 447);
+            this.Controls.Add(this.tb_listaVeiculos);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.MinimizeBox = false;
+            this.MaximizeBox = false;
             this.Name = "F_Veiculos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lista de Veículos";
+            this.Load += new System.EventHandler(this.F_Veiculos_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox tb_listaVeiculos;
     }
 }
