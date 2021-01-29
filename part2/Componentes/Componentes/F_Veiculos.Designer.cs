@@ -1,7 +1,7 @@
 ﻿
 namespace Componentes
 {
-    partial class F_Veiculos
+    partial class F_veiculos
     {
         /// <summary>
         /// Required designer variable.
@@ -29,29 +29,28 @@ namespace Componentes
         /// </summary>
         private void InitializeComponent()
         {
-            this.tb_listaVeiculos = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // tb_listaVeiculos
+            // textBox1
             // 
-            this.tb_listaVeiculos.Location = new System.Drawing.Point(12, 12);
-            this.tb_listaVeiculos.Multiline = true;
-            this.tb_listaVeiculos.Name = "tb_listaVeiculos";
-            this.tb_listaVeiculos.Size = new System.Drawing.Size(398, 423);
-            this.tb_listaVeiculos.TabIndex = 0;
+            this.textBox1.Location = new System.Drawing.Point(12, 12);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(325, 369);
+            this.textBox1.TabIndex = 0;
             // 
-            // F_Veiculos
+            // F_veiculos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(422, 447);
-            this.Controls.Add(this.tb_listaVeiculos);
+            this.ClientSize = new System.Drawing.Size(351, 409);
+            this.Controls.Add(this.textBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
-            this.Name = "F_Veiculos";
+            this.Name = "F_veiculos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lista de Veículos";
-            this.Load += new System.EventHandler(this.F_Veiculos_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -59,6 +58,6 @@ namespace Componentes
 
         #endregion
 
-        private System.Windows.Forms.TextBox tb_listaVeiculos;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

@@ -10,18 +10,14 @@ using System.Windows.Forms;
 
 namespace Componentes
 {
-    public partial class F_Veiculos : Form
+    public partial class F_veiculos : Form
     {
-        public F_Veiculos()
+        public F_veiculos()
         {
-            InitializeComponent(string v);
+            InitializeComponent();
 
-            tb_listaVeiculos.Text = v;
+
         }
 
-        private void F_Veiculos_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
