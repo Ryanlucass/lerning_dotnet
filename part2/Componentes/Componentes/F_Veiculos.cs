@@ -12,10 +12,11 @@ namespace Componentes
 {
     public partial class F_veiculos : Form
     {
-        public F_veiculos()
+        public F_veiculos(String v)
         {
             InitializeComponent();
 
+            tb_listaveiculos.Text = v;
 
         }
 

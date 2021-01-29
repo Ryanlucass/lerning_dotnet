@@ -22,14 +22,14 @@ namespace Componentes
         private void btn_adicionar_Click(object sender, EventArgs e)
         {
            
-            if (tb_veiculo.Text== "")
+            if (tb_veiculo.Text == string.Empty)
             {
                 MessageBox.Show("Digite um Veículo");
                 tb_veiculo.Focus();
                 return;
             }
             
-                tb_lista_veiculos.Text += tb_veiculo.Text + ", " ; //pular a linha inteira                                                                                                  
+                tb_lista_veiculos.Text += tb_veiculo.Text + System.Environment.NewLine.ToString(); //pular a linha inteira                                                                                                  
                 tb_veiculo.Clear();
                 tb_veiculo.Focus(); //onde o posicionandor de digitação irá ficar 
             
@@ -46,7 +46,8 @@ namespace Componentes
 
         private void btn_mostrar_Click(object sender, EventArgs e)
         {
-            
+            F_veiculos f_veiculos = new F_veiculos(tb_lista_veiculos.Text);
+            f_veiculos.ShowDialog();
         }
     }
 }

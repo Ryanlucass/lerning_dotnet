@@ -29,23 +29,23 @@ namespace Componentes
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tb_listaveiculos = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // textBox1
+            // tb_listaveiculos
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 12);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(325, 369);
-            this.textBox1.TabIndex = 0;
+            this.tb_listaveiculos.Location = new System.Drawing.Point(12, 12);
+            this.tb_listaveiculos.Multiline = true;
+            this.tb_listaveiculos.Name = "tb_listaveiculos";
+            this.tb_listaveiculos.Size = new System.Drawing.Size(325, 369);
+            this.tb_listaveiculos.TabIndex = 0;
             // 
             // F_veiculos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(351, 409);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tb_listaveiculos);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "F_veiculos";
@@ -58,6 +58,6 @@ namespace Componentes
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tb_listaveiculos;
     }
 }
