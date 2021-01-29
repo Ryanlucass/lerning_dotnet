@@ -34,6 +34,7 @@ namespace Componentes
             this.btn_limpar = new System.Windows.Forms.Label();
             this.tb_lista_veiculos = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.btn_mostrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_adicionar
@@ -81,11 +82,22 @@ namespace Componentes
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btn_mostrar
+            // 
+            this.btn_mostrar.Location = new System.Drawing.Point(12, 366);
+            this.btn_mostrar.Name = "btn_mostrar";
+            this.btn_mostrar.Size = new System.Drawing.Size(268, 32);
+            this.btn_mostrar.TabIndex = 5;
+            this.btn_mostrar.Text = "Mostrar Todos os Veículos";
+            this.btn_mostrar.UseVisualStyleBackColor = true;
+            this.btn_mostrar.Click += new System.EventHandler(this.btn_mostrar_Click);
+            // 
             // F_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(300, 362);
+            this.ClientSize = new System.Drawing.Size(295, 414);
+            this.Controls.Add(this.btn_mostrar);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tb_lista_veiculos);
             this.Controls.Add(this.btn_limpar);
@@ -108,6 +120,7 @@ namespace Componentes
         private System.Windows.Forms.Label btn_limpar;
         private System.Windows.Forms.TextBox tb_lista_veiculos;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_mostrar;
     }
 }
 

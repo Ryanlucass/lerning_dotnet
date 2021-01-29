@@ -8,3 +8,4 @@ C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\part2\Componentes\Compo
 C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\part2\Componentes\Componentes\obj\Debug\Componentes.csproj.CoreCompileInputs.cache
 C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\part2\Componentes\Componentes\obj\Debug\Componentes.exe
 C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\part2\Componentes\Componentes\obj\Debug\Componentes.pdb
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\part2\Componentes\Componentes\obj\Debug\Componentes.F_Veiculos.resources

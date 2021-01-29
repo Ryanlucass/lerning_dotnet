@@ -37,6 +37,7 @@ namespace Componentes
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(422, 447);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MinimizeBox = false;
             this.Name = "F_Veiculos";
             this.Text = "Lista de Veículos";
             this.ResumeLayout(false);
