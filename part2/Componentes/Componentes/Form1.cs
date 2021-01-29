@@ -28,7 +28,7 @@ namespace Componentes
                 tb_veiculo.Focus();
                 return;
             }
-            
+                
                 tb_lista_veiculos.Text += tb_veiculo.Text + System.Environment.NewLine.ToString(); //pular a linha inteira                                                                                                  
                 tb_veiculo.Clear();
                 tb_veiculo.Focus(); //onde o posicionandor de digitação irá ficar 
