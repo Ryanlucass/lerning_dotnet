@@ -37,6 +37,7 @@ namespace Componentes
             this.tb_listaveiculos.Location = new System.Drawing.Point(12, 12);
             this.tb_listaveiculos.Multiline = true;
             this.tb_listaveiculos.Name = "tb_listaveiculos";
+            this.tb_listaveiculos.ReadOnly = true;
             this.tb_listaveiculos.Size = new System.Drawing.Size(325, 369);
             this.tb_listaveiculos.TabIndex = 0;
             // 
