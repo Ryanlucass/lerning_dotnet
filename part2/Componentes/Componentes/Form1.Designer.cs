@@ -53,6 +53,14 @@ namespace Componentes
             this.tb_veiculo.Name = "tb_veiculo";
             this.tb_veiculo.Size = new System.Drawing.Size(170, 22);
             this.tb_veiculo.TabIndex = 1;
+            // 
+            // btn_limpar
+            // 
+            this.btn_limpar.Location = new System.Drawing.Point(0, 0);
+            this.btn_limpar.Name = "btn_limpar";
+            this.btn_limpar.Size = new System.Drawing.Size(100, 23);
+            this.btn_limpar.TabIndex = 6;
+            // 
             // tb_lista_veiculos
             // 
             this.tb_lista_veiculos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -72,7 +80,7 @@ namespace Componentes
             this.btn_clear.UseVisualStyleBackColor = true;
             this.btn_clear.Click += new System.EventHandler(this.btn_clear_Click);
             // 
-            // btn_mostra
+            // btn_mostrar
             // 
             this.btn_mostrar.Location = new System.Drawing.Point(12, 366);
             this.btn_mostrar.Name = "btn_mostrar";
@@ -94,10 +102,12 @@ namespace Componentes
             this.Controls.Add(this.tb_veiculo);
             this.Controls.Add(this.btn_adicionar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "F_Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Componentes ";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.F_Principal_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

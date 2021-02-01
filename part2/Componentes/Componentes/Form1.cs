@@ -28,7 +28,7 @@ namespace Componentes
                 tb_veiculo.Focus();
                 return;
             }
-                
+                 
                 tb_lista_veiculos.Text += tb_veiculo.Text + System.Environment.NewLine.ToString(); //pular a linha inteira                                                                                                  
                 tb_veiculo.Clear();
                 tb_veiculo.Focus(); //onde o posicionandor de digitação irá ficar 
@@ -48,6 +48,16 @@ namespace Componentes
         {
             F_veiculos f_veiculos = new F_veiculos(tb_lista_veiculos.Text);
             f_veiculos.ShowDialog();
+        }
+
+        private void F_Principal_KeyDown(object sender, KeyEventArgs e)
+        {
+            switch (e.KeyCode)
+            {
+                case Keys.Enter:
+                    btn_adicionar_Click(sender, e);
+                    break;
+            }
         }
     }
 }
