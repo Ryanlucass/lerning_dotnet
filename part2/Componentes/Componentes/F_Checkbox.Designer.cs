@@ -1,7 +1,7 @@
 ﻿
 namespace Componentes
 {
-    partial class F_veiculos
+    partial class F_Checkbox
     {
         /// <summary>
         /// Required designer variable.
@@ -29,36 +29,21 @@ namespace Componentes
         /// </summary>
         private void InitializeComponent()
         {
-            this.tb_listaveiculos = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // tb_listaveiculos
-            // 
-            this.tb_listaveiculos.Location = new System.Drawing.Point(12, 12);
-            this.tb_listaveiculos.Multiline = true;
-            this.tb_listaveiculos.Name = "tb_listaveiculos";
-            this.tb_listaveiculos.Size = new System.Drawing.Size(325, 369);
-            this.tb_listaveiculos.TabIndex = 0;
-            // 
-            // F_veiculos
+            // F_Checkbox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(351, 409);
-            this.Controls.Add(this.tb_listaveiculos);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.MaximizeBox = false;
-            this.Name = "F_veiculos";
+            this.Name = "F_Checkbox";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Lista de Veículos";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.F_veiculos_FormClosed);
+            this.Text = "Checkbox";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox tb_listaveiculos;
     }
 }

@@ -36,7 +36,7 @@ namespace Componentes
 
                        
         }
-
+        //Botão Limpar
         private void btn_clear_Click(object sender, EventArgs e)
         {
             tb_lista_veiculos.Clear();
@@ -44,12 +44,14 @@ namespace Componentes
             tb_veiculo.Focus();
         }
 
+        //Botão mostrar 
         private void btn_mostrar_Click(object sender, EventArgs e)
         {
-            F_veiculos f_veiculos = new F_veiculos(tb_lista_veiculos.Text);
+            F_veiculos f_veiculos = new F_veiculos(tb_lista_veiculos.Text, this);
             f_veiculos.ShowDialog();
         }
 
+        //Botões de atalho do teclado 
         private void F_Principal_KeyDown(object sender, KeyEventArgs e)
         {
             switch (e.KeyCode)
@@ -58,6 +60,12 @@ namespace Componentes
                     btn_adicionar_Click(sender, e);
                     break;
             }
+        }
+
+        private void checkboxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_Checkbox f_Checkbox = new F_Checkbox();
+            f_Checkbox.ShowDialog();
         }
     }
 }
