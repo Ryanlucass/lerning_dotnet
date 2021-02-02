@@ -138,7 +138,7 @@ namespace Componentes
             this.MaximizeBox = false;
             this.Name = "F_Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Componentes ";
+            this.Text = "Elements";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.F_Principal_KeyDown);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
