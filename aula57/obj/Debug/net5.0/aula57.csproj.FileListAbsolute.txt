@@ -1,0 +1,16 @@
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\aula57\obj\Debug\net5.0\aula57.csprojAssemblyReference.cache
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\aula57\obj\Debug\net5.0\aula57.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\aula57\obj\Debug\net5.0\aula57.AssemblyInfoInputs.cache
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\aula57\obj\Debug\net5.0\aula57.AssemblyInfo.cs
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\aula57\obj\Debug\net5.0\aula57.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\aula57\bin\Debug\net5.0\aula57.exe
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\aula57\bin\Debug\net5.0\aula57.deps.json
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\aula57\bin\Debug\net5.0\aula57.runtimeconfig.json
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\aula57\bin\Debug\net5.0\aula57.runtimeconfig.dev.json
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\aula57\bin\Debug\net5.0\aula57.dll
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\aula57\bin\Debug\net5.0\ref\aula57.dll
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\aula57\bin\Debug\net5.0\aula57.pdb
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\aula57\obj\Debug\net5.0\aula57.dll
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\aula57\obj\Debug\net5.0\ref\aula57.dll
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\aula57\obj\Debug\net5.0\aula57.pdb
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\aula57\obj\Debug\net5.0\aula57.genruntimeconfig.cache
