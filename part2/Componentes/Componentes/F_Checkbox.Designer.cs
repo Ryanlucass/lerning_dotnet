@@ -34,6 +34,7 @@ namespace Componentes
             this.cb_navio = new System.Windows.Forms.CheckBox();
             this.cb_onibus = new System.Windows.Forms.CheckBox();
             this.btn_transportes_marcados = new System.Windows.Forms.Button();
+            this.cb_patinete = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // cb_carro
@@ -86,11 +87,23 @@ namespace Componentes
             this.btn_transportes_marcados.UseVisualStyleBackColor = true;
             this.btn_transportes_marcados.Click += new System.EventHandler(this.btn_transportes_marcados_Click);
             // 
+            // cb_patinete
+            // 
+            this.cb_patinete.AutoSize = true;
+            this.cb_patinete.Location = new System.Drawing.Point(13, 179);
+            this.cb_patinete.Name = "cb_patinete";
+            this.cb_patinete.Size = new System.Drawing.Size(86, 21);
+            this.cb_patinete.TabIndex = 5;
+            this.cb_patinete.Text = "Patinete ";
+            this.cb_patinete.UseVisualStyleBackColor = true;
+            this.cb_patinete.CheckedChanged += new System.EventHandler(this.cb_patinete_CheckedChanged);
+            // 
             // F_Checkbox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(360, 450);
+            this.Controls.Add(this.cb_patinete);
             this.Controls.Add(this.btn_transportes_marcados);
             this.Controls.Add(this.cb_onibus);
             this.Controls.Add(this.cb_navio);
@@ -112,5 +125,6 @@ namespace Componentes
         private System.Windows.Forms.CheckBox cb_navio;
         private System.Windows.Forms.CheckBox cb_onibus;
         private System.Windows.Forms.Button btn_transportes_marcados;
+        private System.Windows.Forms.CheckBox cb_patinete;
     }
 }

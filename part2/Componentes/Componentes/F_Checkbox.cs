@@ -12,9 +12,15 @@ namespace Componentes
 {
     public partial class F_Checkbox : Form
     {
+        List<CheckBox> veiculos=new List <CheckBox>();
         public F_Checkbox()
         {
             InitializeComponent();
+            veiculos.Add(cb_carro);
+            veiculos.Add(cb_aviao);
+            veiculos.Add(cb_navio);
+            veiculos.Add(cb_onibus);
+
         }
         
         //Botão Transportes Marcados 
@@ -22,24 +28,23 @@ namespace Componentes
         {
             string txt = "";
             
-            if(cb_carro.Checked)
+            foreach (CheckBox t in veiculos)
             {
-                txt += cb_carro.Text + System.Environment.NewLine.ToString();
+                if(t.Checked)
+                {
+                    txt += t.Text + System.Environment.NewLine.ToString();
+                }
             }
-            if(cb_aviao.Checked)
-            {
-                txt += cb_aviao.Text + System.Environment.NewLine.ToString();
-            }
-            if (cb_navio.Checked)
-            {
-                txt += cb_navio.Text + System.Environment.NewLine.ToString();
-            }
-            if (cb_onibus.Checked)
-            {
-                txt += cb_onibus.Text + System.Environment.NewLine.ToString();
-            }
-            MessageBox.Show(txt);
 
+            MessageBox.Show(txt);
+        }
+
+        private void cb_patinete_CheckedChanged(object sender, EventArgs e)
+        {
+            if (cb_patinete.Checked)
+            {
+                MessageBox.Show("Patinete Marcado");
+            }
         }
     }
 }
