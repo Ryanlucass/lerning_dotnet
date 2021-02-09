@@ -44,16 +44,16 @@ namespace Componentes
             this.cb_onibus.TabIndex = 7;
             this.cb_onibus.Text = "Ônibus";
             this.cb_onibus.UseVisualStyleBackColor = true;
+            this.cb_onibus.CheckedChanged += new System.EventHandler(this.cb_onibus_CheckedChanged);
             // 
             // cb_navio
             // 
-            this.cb_navio.AutoSize = true;
-            this.cb_navio.Location = new System.Drawing.Point(13, 83);
+            this.cb_navio.Location = new System.Drawing.Point(13, 82);
             this.cb_navio.Name = "cb_navio";
-            this.cb_navio.Size = new System.Drawing.Size(66, 21);
-            this.cb_navio.TabIndex = 6;
+            this.cb_navio.Size = new System.Drawing.Size(104, 24);
+            this.cb_navio.TabIndex = 8;
             this.cb_navio.Text = "Navio";
-            this.cb_navio.UseVisualStyleBackColor = true;
+            this.cb_navio.CheckedChanged += new System.EventHandler(this.cb_navio_CheckedChanged);
             // 
             // cb_aviao
             // 
@@ -64,6 +64,7 @@ namespace Componentes
             this.cb_aviao.TabIndex = 5;
             this.cb_aviao.Text = "Avião";
             this.cb_aviao.UseVisualStyleBackColor = true;
+            this.cb_aviao.CheckedChanged += new System.EventHandler(this.cb_aviao_CheckedChanged);
             // 
             // cb_carro
             // 
@@ -74,6 +75,7 @@ namespace Componentes
             this.cb_carro.TabIndex = 4;
             this.cb_carro.Text = "Carro";
             this.cb_carro.UseVisualStyleBackColor = true;
+            this.cb_carro.CheckedChanged += new System.EventHandler(this.cb_carro_CheckedChanged);
             // 
             // F_filhoCheckBox
             // 

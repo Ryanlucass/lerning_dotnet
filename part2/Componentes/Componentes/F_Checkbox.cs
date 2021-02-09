@@ -51,6 +51,7 @@ namespace Componentes
         }
 
         //Botão Abir com o filho 
+        // Passando Dados de Um checbox para outro
         private void button1_Click(object sender, EventArgs e)
         {
             F_filhoCheckBox f_FilhoCheckBox = new F_filhoCheckBox();
