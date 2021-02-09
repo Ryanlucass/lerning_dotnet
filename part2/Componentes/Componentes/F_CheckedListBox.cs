@@ -16,5 +16,7 @@ namespace Componentes
         {
             InitializeComponent();
         }
+
+       
     }
 }

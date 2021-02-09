@@ -30,12 +30,35 @@ namespace Componentes
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_CheckedListBox));
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Items.AddRange(new object[] {
+            resources.GetString("checkedListBox1.Items"),
+            resources.GetString("checkedListBox1.Items1"),
+            resources.GetString("checkedListBox1.Items2"),
+            resources.GetString("checkedListBox1.Items3"),
+            resources.GetString("checkedListBox1.Items4")});
+            resources.ApplyResources(this.checkedListBox1, "checkedListBox1");
+            this.checkedListBox1.Name = "checkedListBox1";
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // F_CheckedListBox
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.checkedListBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -45,5 +68,8 @@ namespace Componentes
         }
 
         #endregion
+
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
