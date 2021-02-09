@@ -12,6 +12,8 @@ namespace Componentes
 {
     public partial class F_Checkbox : Form
     {
+        //Criando a minha lista do tipo Checkbox 
+
         List<CheckBox> veiculos=new List <CheckBox>();
         public F_Checkbox()
         {
@@ -39,6 +41,7 @@ namespace Componentes
             MessageBox.Show(txt);
         }
 
+        //Chacked do Patinete 
         private void cb_patinete_CheckedChanged(object sender, EventArgs e)
         {
             if (cb_patinete.Checked)
