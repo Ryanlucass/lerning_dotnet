@@ -19,7 +19,11 @@ namespace Componentes
         {
             InitializeComponent();
             fcb = Application.OpenForms["F_Checkbox"] as F_Checkbox;
-            
+            cb_carro.Checked = fcb.cb_carro.Checked;
+            cb_aviao.Checked = fcb.cb_aviao.Checked;
+            cb_navio.Checked = fcb.cb_navio.Checked;
+            cb_onibus.Checked = fcb.cb_onibus.Checked;
+
         }
     }
 }

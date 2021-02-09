@@ -49,5 +49,13 @@ namespace Componentes
                 MessageBox.Show("Patinete Marcado");
             }
         }
+
+        //Botão Abir com o filho 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            F_filhoCheckBox f_FilhoCheckBox = new F_filhoCheckBox();
+            f_FilhoCheckBox.ShowDialog();
+
+        }
     }
 }
