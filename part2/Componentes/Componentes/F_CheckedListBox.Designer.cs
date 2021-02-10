@@ -31,7 +31,12 @@ namespace Componentes
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_CheckedListBox));
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_mostrar_selecionados = new System.Windows.Forms.Button();
+            this.btn_limpar = new System.Windows.Forms.Button();
+            this.btn_resetar_lista = new System.Windows.Forms.Button();
+            this.tb_NovoTransporte = new System.Windows.Forms.TextBox();
+            this.btn_addNovoTransporte = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // checkedListBox1
@@ -46,30 +51,67 @@ namespace Componentes
             resources.ApplyResources(this.checkedListBox1, "checkedListBox1");
             this.checkedListBox1.Name = "checkedListBox1";
             // 
-            // button1
+            // btn_mostrar_selecionados
             // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            resources.ApplyResources(this.btn_mostrar_selecionados, "btn_mostrar_selecionados");
+            this.btn_mostrar_selecionados.Name = "btn_mostrar_selecionados";
+            // 
+            // btn_limpar
+            // 
+            resources.ApplyResources(this.btn_limpar, "btn_limpar");
+            this.btn_limpar.Name = "btn_limpar";
+            this.btn_limpar.UseVisualStyleBackColor = true;
+            // 
+            // btn_resetar_lista
+            // 
+            resources.ApplyResources(this.btn_resetar_lista, "btn_resetar_lista");
+            this.btn_resetar_lista.Name = "btn_resetar_lista";
+            this.btn_resetar_lista.UseVisualStyleBackColor = true;
+            // 
+            // tb_NovoTransporte
+            // 
+            resources.ApplyResources(this.tb_NovoTransporte, "tb_NovoTransporte");
+            this.tb_NovoTransporte.Name = "tb_NovoTransporte";
+            // 
+            // btn_addNovoTransporte
+            // 
+            resources.ApplyResources(this.btn_addNovoTransporte, "btn_addNovoTransporte");
+            this.btn_addNovoTransporte.Name = "btn_addNovoTransporte";
+            this.btn_addNovoTransporte.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
             // 
             // F_CheckedListBox
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btn_addNovoTransporte);
+            this.Controls.Add(this.tb_NovoTransporte);
+            this.Controls.Add(this.btn_resetar_lista);
+            this.Controls.Add(this.btn_limpar);
+            this.Controls.Add(this.btn_mostrar_selecionados);
             this.Controls.Add(this.checkedListBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "F_CheckedListBox";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.CheckedListBox checkedListBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_mostrar_selecionados;
+        private System.Windows.Forms.Button btn_limpar;
+        private System.Windows.Forms.Button btn_resetar_lista;
+        private System.Windows.Forms.TextBox tb_NovoTransporte;
+        private System.Windows.Forms.Button btn_addNovoTransporte;
+        private System.Windows.Forms.Label label1;
     }
 }
