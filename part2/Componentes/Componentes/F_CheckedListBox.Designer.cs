@@ -46,8 +46,7 @@ namespace Componentes
             resources.GetString("clb_transportes.Items"),
             resources.GetString("clb_transportes.Items1"),
             resources.GetString("clb_transportes.Items2"),
-            resources.GetString("clb_transportes.Items3"),
-            resources.GetString("clb_transportes.Items4")});
+            resources.GetString("clb_transportes.Items3")});
             resources.ApplyResources(this.clb_transportes, "clb_transportes");
             this.clb_transportes.Name = "clb_transportes";
             // 
@@ -62,12 +61,14 @@ namespace Componentes
             resources.ApplyResources(this.btn_limpar, "btn_limpar");
             this.btn_limpar.Name = "btn_limpar";
             this.btn_limpar.UseVisualStyleBackColor = true;
+            this.btn_limpar.Click += new System.EventHandler(this.btn_limpar_Click);
             // 
             // btn_resetar_lista
             // 
             resources.ApplyResources(this.btn_resetar_lista, "btn_resetar_lista");
             this.btn_resetar_lista.Name = "btn_resetar_lista";
             this.btn_resetar_lista.UseVisualStyleBackColor = true;
+            this.btn_resetar_lista.Click += new System.EventHandler(this.btn_resetar_lista_Click);
             // 
             // tb_NovoTransporte
             // 
