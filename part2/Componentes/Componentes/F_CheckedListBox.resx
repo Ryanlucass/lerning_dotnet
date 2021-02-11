@@ -117,42 +117,42 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="checkedListBox1.Items" xml:space="preserve">
+  <data name="clb_transportes.Items" xml:space="preserve">
     <value>Carro</value>
   </data>
-  <data name="checkedListBox1.Items1" xml:space="preserve">
+  <data name="clb_transportes.Items1" xml:space="preserve">
     <value>Navio</value>
   </data>
-  <data name="checkedListBox1.Items2" xml:space="preserve">
+  <data name="clb_transportes.Items2" xml:space="preserve">
     <value>Ônibus</value>
   </data>
-  <data name="checkedListBox1.Items3" xml:space="preserve">
+  <data name="clb_transportes.Items3" xml:space="preserve">
     <value>Trem</value>
   </data>
-  <data name="checkedListBox1.Items4" xml:space="preserve">
+  <data name="clb_transportes.Items4" xml:space="preserve">
     <value>Navio</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="checkedListBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="clb_transportes.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 12</value>
   </data>
-  <data name="checkedListBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="clb_transportes.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 225</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="checkedListBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="clb_transportes.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;checkedListBox1.Name" xml:space="preserve">
-    <value>checkedListBox1</value>
+  <data name="&gt;&gt;clb_transportes.Name" xml:space="preserve">
+    <value>clb_transportes</value>
   </data>
-  <data name="&gt;&gt;checkedListBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;clb_transportes.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkedListBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;clb_transportes.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkedListBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;clb_transportes.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="btn_mostrar_selecionados.Location" type="System.Drawing.Point, System.Drawing">

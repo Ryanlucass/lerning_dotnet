@@ -17,6 +17,18 @@ namespace Componentes
             InitializeComponent();
         }
 
-       
+        private void btn_mostrar_selecionados_Click(object sender, EventArgs e)
+        {
+            string txt = "";    //iniciando uma variável com nada para relacionar esse valor futuramente 
+            
+            foreach(string t in clb_transportes.CheckedItems)
+            {
+                txt += t + ", ";
+            }
+
+
+            MessageBox.Show(txt);
+
+        }
     }
 }

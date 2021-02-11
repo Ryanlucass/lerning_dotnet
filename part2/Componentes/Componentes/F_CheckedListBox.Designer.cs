@@ -30,7 +30,7 @@ namespace Componentes
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_CheckedListBox));
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.clb_transportes = new System.Windows.Forms.CheckedListBox();
             this.btn_mostrar_selecionados = new System.Windows.Forms.Button();
             this.btn_limpar = new System.Windows.Forms.Button();
             this.btn_resetar_lista = new System.Windows.Forms.Button();
@@ -39,22 +39,23 @@ namespace Componentes
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // checkedListBox1
+            // clb_transportes
             // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
-            resources.GetString("checkedListBox1.Items"),
-            resources.GetString("checkedListBox1.Items1"),
-            resources.GetString("checkedListBox1.Items2"),
-            resources.GetString("checkedListBox1.Items3"),
-            resources.GetString("checkedListBox1.Items4")});
-            resources.ApplyResources(this.checkedListBox1, "checkedListBox1");
-            this.checkedListBox1.Name = "checkedListBox1";
+            this.clb_transportes.FormattingEnabled = true;
+            this.clb_transportes.Items.AddRange(new object[] {
+            resources.GetString("clb_transportes.Items"),
+            resources.GetString("clb_transportes.Items1"),
+            resources.GetString("clb_transportes.Items2"),
+            resources.GetString("clb_transportes.Items3"),
+            resources.GetString("clb_transportes.Items4")});
+            resources.ApplyResources(this.clb_transportes, "clb_transportes");
+            this.clb_transportes.Name = "clb_transportes";
             // 
             // btn_mostrar_selecionados
             // 
             resources.ApplyResources(this.btn_mostrar_selecionados, "btn_mostrar_selecionados");
             this.btn_mostrar_selecionados.Name = "btn_mostrar_selecionados";
+            this.btn_mostrar_selecionados.Click += new System.EventHandler(this.btn_mostrar_selecionados_Click);
             // 
             // btn_limpar
             // 
@@ -94,7 +95,7 @@ namespace Componentes
             this.Controls.Add(this.btn_resetar_lista);
             this.Controls.Add(this.btn_limpar);
             this.Controls.Add(this.btn_mostrar_selecionados);
-            this.Controls.Add(this.checkedListBox1);
+            this.Controls.Add(this.clb_transportes);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -106,7 +107,7 @@ namespace Componentes
 
         #endregion
 
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.CheckedListBox clb_transportes;
         private System.Windows.Forms.Button btn_mostrar_selecionados;
         private System.Windows.Forms.Button btn_limpar;
         private System.Windows.Forms.Button btn_resetar_lista;
