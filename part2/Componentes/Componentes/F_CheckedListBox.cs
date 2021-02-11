@@ -20,8 +20,10 @@ namespace Componentes
         private void btn_mostrar_selecionados_Click(object sender, EventArgs e)
         {
             string txt = "";    //iniciando uma variável com nada para relacionar esse valor futuramente 
-            
-            foreach(string t in clb_transportes.CheckedItems)
+
+
+            //ciclo para percorrer a coleção "CheckedItems"
+            foreach (string t in clb_transportes.CheckedItems)
             {
                 txt += t + ", ";
             }
