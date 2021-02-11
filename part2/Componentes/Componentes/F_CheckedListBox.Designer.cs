@@ -80,6 +80,7 @@ namespace Componentes
             resources.ApplyResources(this.btn_addNovoTransporte, "btn_addNovoTransporte");
             this.btn_addNovoTransporte.Name = "btn_addNovoTransporte";
             this.btn_addNovoTransporte.UseVisualStyleBackColor = true;
+            this.btn_addNovoTransporte.Click += new System.EventHandler(this.btn_addNovoTransporte_Click);
             // 
             // label1
             // 

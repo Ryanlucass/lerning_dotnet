@@ -40,6 +40,7 @@ namespace Componentes
             clb_transportes.Items.Clear();
         }
 
+        //Resetando a lista e adicionando novamente as memsmas caixas 
         private void btn_resetar_lista_Click(object sender, EventArgs e)
         {
             clb_transportes.Items.Clear();
@@ -47,6 +48,11 @@ namespace Componentes
             clb_transportes.Items.Add("Navio", false);
             clb_transportes.Items.Add("Ônibus", false);
             clb_transportes.Items.Add("Trem", false);
+
+        }
+        //Adicionando conteúdo as nossas listas 
+        private void btn_addNovoTransporte_Click(object sender, EventArgs e)
+        {
 
         }
     }
