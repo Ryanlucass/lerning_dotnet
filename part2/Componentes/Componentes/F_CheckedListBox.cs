@@ -44,16 +44,44 @@ namespace Componentes
         private void btn_resetar_lista_Click(object sender, EventArgs e)
         {
             clb_transportes.Items.Clear();
-            clb_transportes.Items.Add("Carro",false);
-            clb_transportes.Items.Add("Navio", false);
-            clb_transportes.Items.Add("Ônibus", false);
-            clb_transportes.Items.Add("Trem", false);
+            
+            //Criando uma lista
+            List<String> tr = new List<String>();
+            //Adicionando itens na lista
+            tr.Add("Carro");
+            tr.Add("Navio");
+            tr.Add("Ônibus");
+            tr.Add("Trem");
+
+            clb_transportes.Items.AddRange(tr.ToArray());
+
 
         }
-        //Adicionando conteúdo as nossas listas 
+        //Adicionando conteúdo as novas listas 
         private void btn_addNovoTransporte_Click(object sender, EventArgs e)
         {
+            if (tb_NovoTransporte.Text != "")
+            {
 
+                clb_transportes.Items.Add(tb_NovoTransporte.Text);
+                tb_NovoTransporte.Clear();
+                tb_NovoTransporte.Focus();
+            }
+            else
+            {
+                MessageBox.Show("Digite algo no campo");
+            }
+        }
+
+        //Adicionando atalhos 
+        private void F_CheckedListBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            switch (e.KeyCode) 
+            {
+                case Keys.Enter:
+                    btn_addNovoTransporte_Click(sender, e);
+                    break;
+            }
         }
     }
 }

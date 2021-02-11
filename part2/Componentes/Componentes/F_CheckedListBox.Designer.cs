@@ -102,6 +102,7 @@ namespace Componentes
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "F_CheckedListBox";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.F_CheckedListBox_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 
