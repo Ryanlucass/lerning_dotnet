@@ -99,6 +99,7 @@ namespace Componentes
             this.Controls.Add(this.btn_mostrar_selecionados);
             this.Controls.Add(this.clb_transportes);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "F_CheckedListBox";

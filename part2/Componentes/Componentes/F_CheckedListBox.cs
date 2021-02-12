@@ -60,15 +60,20 @@ namespace Componentes
         //Adicionando conteúdo as novas listas 
         private void btn_addNovoTransporte_Click(object sender, EventArgs e)
         {
-            if (tb_NovoTransporte.Text == string.Empty) //vazio
+            if (tb_NovoTransporte.Text != "") //vazio
+            {
+                clb_transportes.Items.Add(tb_NovoTransporte.Text);
+                tb_NovoTransporte.Clear();
+                tb_NovoTransporte.Focus();
+
+            }
+            else
             {
                 MessageBox.Show("Digite algo no campo");
                 tb_NovoTransporte.Focus();
                 return;
+
             }
-                clb_transportes.Items.Add(tb_NovoTransporte.Text);
-                tb_NovoTransporte.Clear();
-                tb_NovoTransporte.Focus();
             
         }
 
