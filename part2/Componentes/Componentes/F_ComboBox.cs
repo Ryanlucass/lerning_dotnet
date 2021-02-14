@@ -16,5 +16,15 @@ namespace Componentes
         {
             InitializeComponent();
         }
+
+        private void btn_MostrarSelecionados_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(cb_transportes.Text);
+        }
+
+        private void btn_Clear_Click(object sender, EventArgs e)
+        {
+            cb_transportes.Items.Clear();
+        }
     }
 }
