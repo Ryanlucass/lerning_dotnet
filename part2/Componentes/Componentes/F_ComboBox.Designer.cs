@@ -31,7 +31,7 @@ namespace Componentes
         {
             this.cb_transportes = new System.Windows.Forms.ComboBox();
             this.btn_MostrarSelecionados = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_reset = new System.Windows.Forms.Button();
             this.btn_Clear = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -61,14 +61,15 @@ namespace Componentes
             this.btn_MostrarSelecionados.UseVisualStyleBackColor = true;
             this.btn_MostrarSelecionados.Click += new System.EventHandler(this.btn_MostrarSelecionados_Click);
             // 
-            // button2
+            // btn_reset
             // 
-            this.button2.Location = new System.Drawing.Point(407, 14);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(169, 25);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_reset.Location = new System.Drawing.Point(407, 14);
+            this.btn_reset.Name = "btn_reset";
+            this.btn_reset.Size = new System.Drawing.Size(169, 25);
+            this.btn_reset.TabIndex = 2;
+            this.btn_reset.Text = "Reset";
+            this.btn_reset.UseVisualStyleBackColor = true;
+            this.btn_reset.Click += new System.EventHandler(this.btn_reset_Click);
             // 
             // btn_Clear
             // 
@@ -105,7 +106,7 @@ namespace Componentes
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.btn_Clear);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btn_reset);
             this.Controls.Add(this.btn_MostrarSelecionados);
             this.Controls.Add(this.cb_transportes);
             this.MaximizeBox = false;
@@ -122,7 +123,7 @@ namespace Componentes
 
         private System.Windows.Forms.ComboBox cb_transportes;
         private System.Windows.Forms.Button btn_MostrarSelecionados;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_reset;
         private System.Windows.Forms.Button btn_Clear;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox textBox1;
