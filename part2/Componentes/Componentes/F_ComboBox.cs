@@ -44,5 +44,32 @@ namespace Componentes
             cb_transportes.Items.AddRange(Vr.ToArray());
 
         }
+
+        private void cb_transportes_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            tb_Transporte.Text = cb_transportes.Text;
+        }
+
+        private void btn_add_Click(object sender, EventArgs e)
+        {
+            if(tb_Transporte.Text != "")
+            {
+                if (cb_transportes.FindString(tb_Transporte.Text) < 0)
+                {
+                    cb_transportes.Items.Add(tb_Transporte.Text);
+                    tb_Transporte.Clear();
+                    tb_Transporte.Focus();
+                }
+                else
+                {
+                    MessageBox.Show("O veículo já existe");
+                }
+                
+            }
+            else
+            {
+                MessageBox.Show("Digite um veículo");
+            }
+        }
     }
 }

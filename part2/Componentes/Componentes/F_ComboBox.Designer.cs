@@ -33,8 +33,8 @@ namespace Componentes
             this.btn_MostrarSelecionados = new System.Windows.Forms.Button();
             this.btn_reset = new System.Windows.Forms.Button();
             this.btn_Clear = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btn_add = new System.Windows.Forms.Button();
+            this.tb_Transporte = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // cb_transportes
@@ -46,10 +46,11 @@ namespace Componentes
             "Navio ",
             "Ônibus ",
             "Trem"});
-            this.cb_transportes.Location = new System.Drawing.Point(10, 12);
+            this.cb_transportes.Location = new System.Drawing.Point(12, 14);
             this.cb_transportes.Name = "cb_transportes";
             this.cb_transportes.Size = new System.Drawing.Size(211, 24);
             this.cb_transportes.TabIndex = 0;
+            this.cb_transportes.SelectedIndexChanged += new System.EventHandler(this.cb_transportes_SelectedIndexChanged);
             // 
             // btn_MostrarSelecionados
             // 
@@ -81,30 +82,31 @@ namespace Componentes
             this.btn_Clear.UseVisualStyleBackColor = true;
             this.btn_Clear.Click += new System.EventHandler(this.btn_Clear_Click);
             // 
-            // button4
+            // btn_add
             // 
-            this.button4.Location = new System.Drawing.Point(239, 113);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(337, 23);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btn_add.Location = new System.Drawing.Point(239, 72);
+            this.btn_add.Name = "btn_add";
+            this.btn_add.Size = new System.Drawing.Size(337, 29);
+            this.btn_add.TabIndex = 4;
+            this.btn_add.Text = "Adicionar ";
+            this.btn_add.UseVisualStyleBackColor = true;
+            this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
             // 
-            // textBox1
+            // tb_Transporte
             // 
-            this.textBox1.Location = new System.Drawing.Point(239, 82);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(337, 25);
-            this.textBox1.TabIndex = 5;
+            this.tb_Transporte.Location = new System.Drawing.Point(12, 72);
+            this.tb_Transporte.Multiline = true;
+            this.tb_Transporte.Name = "tb_Transporte";
+            this.tb_Transporte.Size = new System.Drawing.Size(211, 25);
+            this.tb_Transporte.TabIndex = 5;
             // 
             // F_ComboBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(599, 352);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button4);
+            this.ClientSize = new System.Drawing.Size(594, 114);
+            this.Controls.Add(this.tb_Transporte);
+            this.Controls.Add(this.btn_add);
             this.Controls.Add(this.btn_Clear);
             this.Controls.Add(this.btn_reset);
             this.Controls.Add(this.btn_MostrarSelecionados);
@@ -125,7 +127,7 @@ namespace Componentes
         private System.Windows.Forms.Button btn_MostrarSelecionados;
         private System.Windows.Forms.Button btn_reset;
         private System.Windows.Forms.Button btn_Clear;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btn_add;
+        private System.Windows.Forms.TextBox tb_Transporte;
     }
 }
