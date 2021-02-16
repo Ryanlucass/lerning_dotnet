@@ -44,10 +44,9 @@ namespace Componentes
             m = Int32.Parse(tb_mes.Text);
             a = Int32.Parse(tb_ano.Text);
 
-
             //criando um DateTime 
 
-            DateTime dt = new DateTime(d, m, a);
+            DateTime dt = new DateTime(a,m,d);
 
             //No Datetime ele precisa de três inteiros, justamente o mês o ano e o dia
 
