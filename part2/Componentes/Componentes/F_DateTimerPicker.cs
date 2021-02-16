@@ -32,5 +32,26 @@ namespace Componentes
 
             //obs: É preciso convertar "ToString()" pois os valores adquiridos no Value são Int
         }
+
+        private void btn_setar_data_Click(object sender, EventArgs e)
+        {
+            //criando variáveis 
+            int d, m, a;
+
+            //convertendo para inteiros   
+             
+            d = Int32.Parse(tb_dia.Text);            
+            m = Int32.Parse(tb_mes.Text);
+            a = Int32.Parse(tb_ano.Text);
+
+
+            //criando um DateTime 
+
+            DateTime dt = new DateTime(d, m, a);
+
+            //No Datetime ele precisa de três inteiros, justamente o mês o ano e o dia
+
+            dtp_data.Value = dt;
+        }
     }
 }

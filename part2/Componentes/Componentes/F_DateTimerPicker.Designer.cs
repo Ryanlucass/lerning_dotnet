@@ -91,6 +91,7 @@ namespace Componentes
             this.btn_setar_data.TabIndex = 9;
             this.btn_setar_data.Text = "Setar Data";
             this.btn_setar_data.UseVisualStyleBackColor = true;
+            this.btn_setar_data.Click += new System.EventHandler(this.btn_setar_data_Click);
             // 
             // F_DateTimerPicker
             // 
