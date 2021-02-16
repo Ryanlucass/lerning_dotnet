@@ -52,7 +52,7 @@ namespace Componentes
 
         private void btn_add_Click(object sender, EventArgs e)
         {
-            if(tb_Transporte.Text != "")
+            if (tb_Transporte.Text != "")
             {
                 if (cb_transportes.FindString(tb_Transporte.Text) < 0)
                 {
@@ -71,5 +71,22 @@ namespace Componentes
                 MessageBox.Show("Digite um veículo");
             }
         }
+
+        //Botões de Atalho 
+        private void F_ComboBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            switch(e.KeyCode)
+            {
+                case Keys.Enter:
+                btn_add_Click(sender, e);
+                break;
+            }
+        }
+
+
+
+
+
+
     }
 }

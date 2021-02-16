@@ -47,7 +47,7 @@ namespace Componentes
         }
 
         //Botões de atalho do teclado 
-        private void F_Principal_KeyDown(object sender, KeyEventArgs e)
+        public void F_Principal_KeyDown(object sender, KeyEventArgs e)
         {
             switch (e.KeyCode)
             {
@@ -73,6 +73,12 @@ namespace Componentes
         {
             F_ComboBox f_ComboBox = new F_ComboBox();
             f_ComboBox.ShowDialog();
+        }
+
+        private void dateTimeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_DateTimerPicker f_DateTimerPicker = new F_DateTimerPicker();
+            f_DateTimerPicker.ShowDialog();
         }
     }
 }

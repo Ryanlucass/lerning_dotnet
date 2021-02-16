@@ -95,9 +95,8 @@ namespace Componentes
             // tb_Transporte
             // 
             this.tb_Transporte.Location = new System.Drawing.Point(12, 72);
-            this.tb_Transporte.Multiline = true;
             this.tb_Transporte.Name = "tb_Transporte";
-            this.tb_Transporte.Size = new System.Drawing.Size(211, 25);
+            this.tb_Transporte.Size = new System.Drawing.Size(211, 22);
             this.tb_Transporte.TabIndex = 5;
             // 
             // F_ComboBox
@@ -111,11 +110,13 @@ namespace Componentes
             this.Controls.Add(this.btn_reset);
             this.Controls.Add(this.btn_MostrarSelecionados);
             this.Controls.Add(this.cb_transportes);
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "F_ComboBox";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ComboBox ";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.F_ComboBox_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

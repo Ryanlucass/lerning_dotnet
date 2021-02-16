@@ -227,9 +227,6 @@
   <data name="tb_NovoTransporte.Location" type="System.Drawing.Point, System.Drawing">
     <value>139, 186</value>
   </data>
-  <data name="tb_NovoTransporte.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="tb_NovoTransporte.Size" type="System.Drawing.Size, System.Drawing">
     <value>252, 22</value>
   </data>
