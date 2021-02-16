@@ -21,7 +21,7 @@ namespace Componentes
         {
             //Recebendo a data completa 
             //tb_data.Text = dtp_data.Text;
-            tb_data.Text += "A data de hoje é: " + dtp_data.Text;
+            tb_data.Text += "A data é: " + dtp_data.Text;
           
             //Recebendo o dia 
             tb_dia.Text = dtp_data.Value.Day.ToString();
@@ -47,6 +47,7 @@ namespace Componentes
             //criando um DateTime 
 
             DateTime dt = new DateTime(a,m,d);
+            DateTime o = new DateTime()
 
             //No Datetime ele precisa de três inteiros, justamente o mês o ano e o dia
 
