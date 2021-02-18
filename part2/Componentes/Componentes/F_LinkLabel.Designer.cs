@@ -72,6 +72,7 @@ namespace Componentes
             this.ll_Calc.TabIndex = 3;
             this.ll_Calc.TabStop = true;
             this.ll_Calc.Text = "Abrir Calculadora";
+            this.ll_Calc.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ll_Calc_LinkClicked);
             // 
             // ll_multipleLinks
             // 
