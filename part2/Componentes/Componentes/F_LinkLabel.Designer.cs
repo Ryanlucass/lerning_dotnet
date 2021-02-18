@@ -83,6 +83,7 @@ namespace Componentes
             this.ll_multipleLinks.TabIndex = 4;
             this.ll_multipleLinks.TabStop = true;
             this.ll_multipleLinks.Text = "Google - Gmail - YouTube";
+            this.ll_multipleLinks.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ll_multipleLinks_LinkClicked);
             // 
             // F_LinkLabel
             // 

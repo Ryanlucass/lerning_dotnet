@@ -37,5 +37,15 @@ namespace Componentes
 
             System.Diagnostics.Process.Start("calc.exe");
         }
+        //Chamando o multiple links 
+        private void ll_multipleLinks_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(e.Link.LinkData.ToString());
+
+            //(e) pois é o que a função me retorna
+            //LinkData é o que eu quero, quero que eleme retorno o link do (e)
+            //LinkData o espaço que ele retorna, o espaço de cada strin, se fosse somente  um link não precisaria colocar
+            //Estou convertendo para string, já que ele é outro tipo
+        }
     }
 }
