@@ -68,17 +68,25 @@ namespace Componentes
             F_CheckedListBox f_CheckedListBox = new F_CheckedListBox();
             f_CheckedListBox.ShowDialog();
         }
-
+        //Combo Box Menu
         private void comboBoxToolStripMenuItem_Click(object sender, EventArgs e)
         {
             F_ComboBox f_ComboBox = new F_ComboBox();
             f_ComboBox.ShowDialog();
         }
 
+        //Date Time Menu
         private void dateTimeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             F_DateTimerPicker f_DateTimerPicker = new F_DateTimerPicker();
             f_DateTimerPicker.ShowDialog();
+        }
+
+        //LabelLink Menu
+        private void labelLinkLabelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_LinkLabel f_LinkLabel = new F_LinkLabel();
+            f_LinkLabel.ShowDialog();
         }
     }
 }

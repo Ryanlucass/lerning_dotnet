@@ -40,6 +40,7 @@ namespace Componentes
             this.checkedListBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.comboBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dateTimeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.labelLinkLabelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -107,7 +108,8 @@ namespace Componentes
             this.checkboxToolStripMenuItem,
             this.checkedListBoxToolStripMenuItem,
             this.comboBoxToolStripMenuItem,
-            this.dateTimeToolStripMenuItem});
+            this.dateTimeToolStripMenuItem,
+            this.labelLinkLabelToolStripMenuItem});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(119, 24);
             this.componentesToolStripMenuItem.Text = "Componentes ";
@@ -139,6 +141,13 @@ namespace Componentes
             this.dateTimeToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.dateTimeToolStripMenuItem.Text = "DateTime";
             this.dateTimeToolStripMenuItem.Click += new System.EventHandler(this.dateTimeToolStripMenuItem_Click);
+            // 
+            // labelLinkLabelToolStripMenuItem
+            // 
+            this.labelLinkLabelToolStripMenuItem.Name = "labelLinkLabelToolStripMenuItem";
+            this.labelLinkLabelToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.labelLinkLabelToolStripMenuItem.Text = "Label/LinkLabel";
+            this.labelLinkLabelToolStripMenuItem.Click += new System.EventHandler(this.labelLinkLabelToolStripMenuItem_Click);
             // 
             // F_Principal
             // 
@@ -178,6 +187,7 @@ namespace Componentes
         private System.Windows.Forms.ToolStripMenuItem checkedListBoxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem comboBoxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dateTimeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem labelLinkLabelToolStripMenuItem;
     }
 }
 
