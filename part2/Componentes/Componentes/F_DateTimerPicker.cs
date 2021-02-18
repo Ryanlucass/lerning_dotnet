@@ -47,7 +47,7 @@ namespace Componentes
             //criando um DateTime 
 
             DateTime dt = new DateTime(a,m,d);
-            DateTime o = new DateTime()
+            
 
             //No Datetime ele precisa de três inteiros, justamente o mês o ano e o dia
 
