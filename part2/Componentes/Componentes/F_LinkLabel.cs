@@ -51,5 +51,15 @@ namespace Componentes
             //LinkData o espaço que ele retorna, o espaço de cada strin, se fosse somente  um link não precisaria colocar
             //Estou convertendo para string, já que ele é outro tipo
         }
+
+        private void btn_GetLink_Click(object sender, EventArgs e)
+        {
+            ll_atual.Text = tb_Link.Text;   
+        }
+
+        private void ll_atual_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(tb_Link.Text);
+        }
     }
 }
