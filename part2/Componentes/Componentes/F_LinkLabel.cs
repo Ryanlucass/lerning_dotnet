@@ -12,12 +12,16 @@ namespace Componentes
 {
     public partial class F_LinkLabel : Form
     {
+        string namelink;
+
         public F_LinkLabel()
         {
             InitializeComponent();
             ll_multipleLinks.Links.Add(0,6,"www.google.com.br");
             ll_multipleLinks.Links.Add(9,5,"www.gmail.com.br");
             ll_multipleLinks.Links.Add(17,7,"www.youtube.com.br");
+
+    
 
             //desativando um link que está na posição [2]
             ll_multipleLinks.Links[2].Enabled = false;
@@ -52,14 +56,20 @@ namespace Componentes
             //Estou convertendo para string, já que ele é outro tipo
         }
 
-        private void btn_GetLink_Click(object sender, EventArgs e)
+        //Botão Gerar Link
+        public void btn_GetLink_Click(object sender, EventArgs e)
         {
-            ll_atual.Text = tb_Link.Text;   
+            namelink = tb_Link.Text;  
         }
 
-        private void ll_atual_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        public void ll_atual_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start(tb_Link.Text);
+            System.Diagnostics.Process.Start(namelink);
+        }
+
+        private void btn_NameLink_Click(object sender, EventArgs e)
+        {
+            ll_atual.Text = tb_NameLink.Text;
         }
     }
 }

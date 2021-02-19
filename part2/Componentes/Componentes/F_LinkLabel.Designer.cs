@@ -29,6 +29,7 @@ namespace Componentes
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.Label tb_linkGerado;
             this.label1 = new System.Windows.Forms.Label();
             this.tb_Link = new System.Windows.Forms.TextBox();
             this.ll_github = new System.Windows.Forms.LinkLabel();
@@ -36,6 +37,10 @@ namespace Componentes
             this.ll_multipleLinks = new System.Windows.Forms.LinkLabel();
             this.btn_GetLink = new System.Windows.Forms.Button();
             this.ll_atual = new System.Windows.Forms.LinkLabel();
+            this.tb_NameLink = new System.Windows.Forms.TextBox();
+            this.btn_NameLink = new System.Windows.Forms.Button();
+            this.lb_link = new System.Windows.Forms.Label();
+            tb_linkGerado = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -57,7 +62,7 @@ namespace Componentes
             // ll_github
             // 
             this.ll_github.AutoSize = true;
-            this.ll_github.Location = new System.Drawing.Point(12, 72);
+            this.ll_github.Location = new System.Drawing.Point(213, 125);
             this.ll_github.Name = "ll_github";
             this.ll_github.Size = new System.Drawing.Size(52, 17);
             this.ll_github.TabIndex = 2;
@@ -68,7 +73,7 @@ namespace Componentes
             // ll_Calc
             // 
             this.ll_Calc.AutoSize = true;
-            this.ll_Calc.Location = new System.Drawing.Point(12, 100);
+            this.ll_Calc.Location = new System.Drawing.Point(10, 152);
             this.ll_Calc.Name = "ll_Calc";
             this.ll_Calc.Size = new System.Drawing.Size(117, 17);
             this.ll_Calc.TabIndex = 3;
@@ -79,7 +84,7 @@ namespace Componentes
             // ll_multipleLinks
             // 
             this.ll_multipleLinks.AutoSize = true;
-            this.ll_multipleLinks.Location = new System.Drawing.Point(82, 72);
+            this.ll_multipleLinks.Location = new System.Drawing.Point(10, 125);
             this.ll_multipleLinks.Name = "ll_multipleLinks";
             this.ll_multipleLinks.Size = new System.Drawing.Size(174, 17);
             this.ll_multipleLinks.TabIndex = 4;
@@ -100,7 +105,7 @@ namespace Componentes
             // ll_atual
             // 
             this.ll_atual.AutoSize = true;
-            this.ll_atual.Location = new System.Drawing.Point(15, 141);
+            this.ll_atual.Location = new System.Drawing.Point(10, 225);
             this.ll_atual.Name = "ll_atual";
             this.ll_atual.Size = new System.Drawing.Size(40, 17);
             this.ll_atual.TabIndex = 6;
@@ -108,11 +113,50 @@ namespace Componentes
             this.ll_atual.Text = "Atual";
             this.ll_atual.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ll_atual_LinkClicked);
             // 
+            // tb_NameLink
+            // 
+            this.tb_NameLink.Location = new System.Drawing.Point(15, 59);
+            this.tb_NameLink.Name = "tb_NameLink";
+            this.tb_NameLink.Size = new System.Drawing.Size(147, 22);
+            this.tb_NameLink.TabIndex = 7;
+            // 
+            // btn_NameLink
+            // 
+            this.btn_NameLink.Location = new System.Drawing.Point(180, 57);
+            this.btn_NameLink.Name = "btn_NameLink";
+            this.btn_NameLink.Size = new System.Drawing.Size(111, 23);
+            this.btn_NameLink.TabIndex = 8;
+            this.btn_NameLink.Text = "Nome Link";
+            this.btn_NameLink.UseVisualStyleBackColor = true;
+            this.btn_NameLink.Click += new System.EventHandler(this.btn_NameLink_Click);
+            // 
+            // lb_link
+            // 
+            this.lb_link.AutoSize = true;
+            this.lb_link.Location = new System.Drawing.Point(12, 99);
+            this.lb_link.Name = "lb_link";
+            this.lb_link.Size = new System.Drawing.Size(41, 17);
+            this.lb_link.TabIndex = 9;
+            this.lb_link.Text = "Links";
+            // 
+            // tb_linkGerado
+            // 
+            tb_linkGerado.AutoSize = true;
+            tb_linkGerado.Location = new System.Drawing.Point(12, 194);
+            tb_linkGerado.Name = "tb_linkGerado";
+            tb_linkGerado.Size = new System.Drawing.Size(86, 17);
+            tb_linkGerado.TabIndex = 10;
+            tb_linkGerado.Text = "Link Gerado";
+            // 
             // F_LinkLabel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(303, 314);
+            this.Controls.Add(tb_linkGerado);
+            this.Controls.Add(this.lb_link);
+            this.Controls.Add(this.btn_NameLink);
+            this.Controls.Add(this.tb_NameLink);
             this.Controls.Add(this.ll_atual);
             this.Controls.Add(this.btn_GetLink);
             this.Controls.Add(this.ll_multipleLinks);
@@ -136,7 +180,10 @@ namespace Componentes
         private System.Windows.Forms.LinkLabel ll_github;
         private System.Windows.Forms.LinkLabel ll_Calc;
         private System.Windows.Forms.LinkLabel ll_multipleLinks;
-        private System.Windows.Forms.Button btn_GetLink;
         private System.Windows.Forms.LinkLabel ll_atual;
+        private System.Windows.Forms.TextBox tb_NameLink;
+        private System.Windows.Forms.Button btn_NameLink;
+        public System.Windows.Forms.Button btn_GetLink;
+        private System.Windows.Forms.Label lb_link;
     }
 }
