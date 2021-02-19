@@ -15,10 +15,11 @@ namespace Componentes
         public F_LinkLabel()
         {
             InitializeComponent();
-            //tenho que colocar onde ele começa a posição[0] e o seu tamanho [6]
             ll_multipleLinks.Links.Add(0,6,"www.google.com.br");
             ll_multipleLinks.Links.Add(9,5,"www.gmail.com.br");
             ll_multipleLinks.Links.Add(17,7,"www.youtube.com.br");
+            
+            //tenho que colocar onde ele começa a posição[0] e o seu tamanho [6]
         }
 
         // Github Link 
