@@ -59,14 +59,16 @@ namespace Componentes
         //Botão Gerar Link
         public void btn_GetLink_Click(object sender, EventArgs e)
         {
-            namelink = tb_Link.Text;  
+            namelink = tb_Link.Text;
         }
 
+        //Passando o Link para o label
         public void ll_atual_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start(namelink);
         }
 
+        //Definindo o nome do Link
         private void btn_NameLink_Click(object sender, EventArgs e)
         {
             ll_atual.Text = tb_NameLink.Text;
