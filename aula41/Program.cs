@@ -8,10 +8,9 @@ namespace aula41
         private int Velmax;
 
         public int vm{
-            get{
-                return Velmax;
-            
-            }set{
+            get {return Velmax;}
+
+                set{
                 if(value < 0){//value: valor passado
                     Velmax=0;
                 }

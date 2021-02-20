@@ -12,7 +12,7 @@ namespace Componentes
 {
     public partial class F_LinkLabel : Form
     {
-        string namelink;
+        public string namelink;
 
         public F_LinkLabel()
         {
@@ -25,8 +25,9 @@ namespace Componentes
 
             //desativando um link que está na posição [2]
             ll_multipleLinks.Links[2].Enabled = false;
-            
+
             //tenho que colocar onde ele começa a posição[0] e o seu tamanho [6]
+
         }
 
         // Github Link 
@@ -57,13 +58,14 @@ namespace Componentes
         }
 
         //Botão Gerar Link
-        public void btn_GetLink_Click(object sender, EventArgs e)
-        {
+        private void btn_GetLink_Click(object sender, EventArgs e)
+        {            
             namelink = tb_Link.Text;
+
         }
 
         //Passando o Link para o label
-        public void ll_atual_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void ll_atual_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start(namelink);
         }
