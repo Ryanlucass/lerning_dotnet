@@ -30,5 +30,21 @@ namespace Componentes
             //Poderia ser de um banco de dados 
             lb_carros.DataSource = carros;
         }
+
+        private void btn_adicionar_Click(object sender, EventArgs e)
+        {
+            if(lb_carros.Text == "")
+            {
+                MessageBox.Show("Digite um carro !");
+                
+                lb_carros.Focus();
+            }
+            else 
+            {
+                carros.Add(tb_carro.Text);
+                lb_carros.DataSource = null;
+                lb_carros.DataSource = carros;
+            }
+        }
     }
 }

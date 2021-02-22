@@ -70,6 +70,7 @@ namespace Componentes
             this.btn_adicionar.TabIndex = 3;
             this.btn_adicionar.Text = "Adicionar ";
             this.btn_adicionar.UseVisualStyleBackColor = true;
+            this.btn_adicionar.Click += new System.EventHandler(this.btn_adicionar_Click);
             // 
             // btn_remover
             // 
