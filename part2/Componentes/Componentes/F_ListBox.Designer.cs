@@ -32,8 +32,9 @@ namespace Componentes
             this.lb_carros = new System.Windows.Forms.ListBox();
             this.tb_carro = new System.Windows.Forms.TextBox();
             this.l_carro = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_adicionar = new System.Windows.Forms.Button();
+            this.btn_remover = new System.Windows.Forms.Button();
+            this.btn_obter = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lb_carros
@@ -47,7 +48,7 @@ namespace Componentes
             // 
             // tb_carro
             // 
-            this.tb_carro.Location = new System.Drawing.Point(275, 45);
+            this.tb_carro.Location = new System.Drawing.Point(274, 75);
             this.tb_carro.Name = "tb_carro";
             this.tb_carro.Size = new System.Drawing.Size(156, 22);
             this.tb_carro.TabIndex = 1;
@@ -55,37 +56,47 @@ namespace Componentes
             // l_carro
             // 
             this.l_carro.AutoSize = true;
-            this.l_carro.Location = new System.Drawing.Point(275, 22);
+            this.l_carro.Location = new System.Drawing.Point(274, 52);
             this.l_carro.Name = "l_carro";
             this.l_carro.Size = new System.Drawing.Size(43, 17);
             this.l_carro.TabIndex = 2;
             this.l_carro.Text = "Carro";
             // 
-            // button1
+            // btn_adicionar
             // 
-            this.button1.Location = new System.Drawing.Point(275, 73);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 36);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_adicionar.Location = new System.Drawing.Point(274, 103);
+            this.btn_adicionar.Name = "btn_adicionar";
+            this.btn_adicionar.Size = new System.Drawing.Size(75, 36);
+            this.btn_adicionar.TabIndex = 3;
+            this.btn_adicionar.Text = "Adicionar ";
+            this.btn_adicionar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btn_remover
             // 
-            this.button2.Location = new System.Drawing.Point(356, 73);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 36);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_remover.Location = new System.Drawing.Point(355, 103);
+            this.btn_remover.Name = "btn_remover";
+            this.btn_remover.Size = new System.Drawing.Size(75, 36);
+            this.btn_remover.TabIndex = 4;
+            this.btn_remover.Text = "Remover ";
+            this.btn_remover.UseVisualStyleBackColor = true;
+            // 
+            // btn_obter
+            // 
+            this.btn_obter.Location = new System.Drawing.Point(274, 145);
+            this.btn_obter.Name = "btn_obter";
+            this.btn_obter.Size = new System.Drawing.Size(156, 33);
+            this.btn_obter.TabIndex = 5;
+            this.btn_obter.Text = "Obter";
+            this.btn_obter.UseVisualStyleBackColor = true;
             // 
             // F_ListBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(458, 417);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(458, 243);
+            this.Controls.Add(this.btn_obter);
+            this.Controls.Add(this.btn_remover);
+            this.Controls.Add(this.btn_adicionar);
             this.Controls.Add(this.l_carro);
             this.Controls.Add(this.tb_carro);
             this.Controls.Add(this.lb_carros);
@@ -103,7 +114,8 @@ namespace Componentes
         private System.Windows.Forms.ListBox lb_carros;
         private System.Windows.Forms.TextBox tb_carro;
         private System.Windows.Forms.Label l_carro;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_adicionar;
+        private System.Windows.Forms.Button btn_remover;
+        private System.Windows.Forms.Button btn_obter;
     }
 }
