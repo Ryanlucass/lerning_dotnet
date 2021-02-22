@@ -43,6 +43,15 @@ namespace Componentes
             tb_linkGerado = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
+            // tb_linkGerado
+            // 
+            tb_linkGerado.AutoSize = true;
+            tb_linkGerado.Location = new System.Drawing.Point(12, 194);
+            tb_linkGerado.Name = "tb_linkGerado";
+            tb_linkGerado.Size = new System.Drawing.Size(86, 17);
+            tb_linkGerado.TabIndex = 10;
+            tb_linkGerado.Text = "Link Gerado";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -115,9 +124,9 @@ namespace Componentes
             // 
             // tb_NameLink
             // 
-            this.tb_NameLink.Location = new System.Drawing.Point(15, 59);
+            this.tb_NameLink.Location = new System.Drawing.Point(12, 59);
             this.tb_NameLink.Name = "tb_NameLink";
-            this.tb_NameLink.Size = new System.Drawing.Size(147, 22);
+            this.tb_NameLink.Size = new System.Drawing.Size(150, 22);
             this.tb_NameLink.TabIndex = 7;
             // 
             // btn_NameLink
@@ -138,15 +147,6 @@ namespace Componentes
             this.lb_link.Size = new System.Drawing.Size(41, 17);
             this.lb_link.TabIndex = 9;
             this.lb_link.Text = "Links";
-            // 
-            // tb_linkGerado
-            // 
-            tb_linkGerado.AutoSize = true;
-            tb_linkGerado.Location = new System.Drawing.Point(12, 194);
-            tb_linkGerado.Name = "tb_linkGerado";
-            tb_linkGerado.Size = new System.Drawing.Size(86, 17);
-            tb_linkGerado.TabIndex = 10;
-            tb_linkGerado.Text = "Link Gerado";
             // 
             // F_LinkLabel
             // 
