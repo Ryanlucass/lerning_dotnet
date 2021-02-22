@@ -33,7 +33,7 @@ namespace Componentes
 
         private void btn_adicionar_Click(object sender, EventArgs e)
         {
-            if(lb_carros.Text == "")
+            if(tb_carro.Text == "")
             {
                 MessageBox.Show("Digite um carro !");
                 
@@ -44,6 +44,9 @@ namespace Componentes
                 carros.Add(tb_carro.Text);
                 lb_carros.DataSource = null;
                 lb_carros.DataSource = carros;
+
+                tb_carro.Clear();
+                tb_carro.Focus();
             }
         }
     }
