@@ -80,6 +80,7 @@ namespace Componentes
             this.btn_remover.TabIndex = 4;
             this.btn_remover.Text = "Remover ";
             this.btn_remover.UseVisualStyleBackColor = true;
+            this.btn_remover.Click += new System.EventHandler(this.btn_remover_Click);
             // 
             // btn_obter
             // 

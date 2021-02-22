@@ -42,12 +42,21 @@ namespace Componentes
             else 
             {
                 carros.Add(tb_carro.Text);
+                //Atulizando o data sirce 
                 lb_carros.DataSource = null;
                 lb_carros.DataSource = carros;
 
                 tb_carro.Clear();
                 tb_carro.Focus();
             }
+        }
+
+        //Botão de Remover 
+        private void btn_remover_Click(object sender, EventArgs e)
+        {
+            carros.RemoveAt(lb_carros.SelectedIndex);
+            lb_carros.DataSource = null;
+            lb_carros.DataSource = carros;
         }
     }
 }
