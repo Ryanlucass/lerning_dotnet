@@ -52,6 +52,8 @@ namespace Componentes
         }
 
         //Botão de Remover 
+
+        //Ele vai remover o que está selecionado 
         private void btn_remover_Click(object sender, EventArgs e)
         {
             carros.RemoveAt(lb_carros.SelectedIndex);
