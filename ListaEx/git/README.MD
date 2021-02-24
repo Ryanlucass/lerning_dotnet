@@ -1,0 +1,7 @@
+Lista de Exercícios POO
+
+Crie uma classe Animal, com três métodos (Acordar(), Comer(), Dormir()) e uma propriedade (Nome);
+Crie uma classe Mamifero, que herda de Animal (criado como no item acima) e que possui o método Mamar(). Crie, ainda, as classes Morcego (que possui o método Voar()) e Baleia (que possui o método Nadar()), derivadas de Mamifero;
+Crie uma enumeração Sexo (masculino e f, com valores 1 e 10, respectivamente). Após isso, crie uma classe abstrata Pessoa que possui os métodos Acordar(), Comer() (esse é abstract) e Dormir() e as propriedades int Codigo, String Nome e Sexo Sexo. Crie duas classes (Homem e Mulher) que herdam de Pessoa;
+Crie uma classe Calculadora que faça as quatro operações básicas (soma, subtração, multiplicação e divisão). Crie uma classe derivada CalculadoraCientifica que, além das operações básicas, faça extração de raízes;
+Crie uma classe abstract Figura, com um campo double x (privado). Crie um construtor para fornecer o valor para esse campo. Crie dois métodos abstract CalcularArea() e CalcularPerimetro() que (nas derivadas) retornarão os valores da área e do perímetro de uma figura regular, baseados na medida x. Crie as classes derivadas Equilatero, Quadrado, Circulo, Pentagono, Hexagono, Heptagono e Octogono. Sobrescreva o método ToString() de Figura.
