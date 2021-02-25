@@ -2,44 +2,45 @@
 
 namespace _03
 {
-    //Faca um programa que leia 10 números inteiros e imprima a sua média 
-    
-    public class Operacao
+
+    public class valores
     {
-        public int numero;
-        public int media;
+        public int numbers;
         public int total;
-        int[] num= new int [10];
+        public int media;
+        
 
-        public void calculo(){
+        //Definindo uma array com dez espaços de valores
+       
+
+
+        //Função que faz todo o calculo
+        public void Calculo(){
+
+            for(int i=0; i<10; i++){
+                
+                Console.WriteLine("Digite o valor {0} :",i+1);
             
-            for(int i=0; i<num.Length; i++){
+                numbers = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite o {0}ª Numero: ",i+1);
-
-            numero = int.Parse(Console.ReadLine());
-
-            total += numero;
-
+                total +=numbers;
             }
-
+             
             media = total/10;
 
-            Console.WriteLine("A média é {}",media);
+            Console.WriteLine("A média é: {0}", media);
 
         }
-
-
     }
+
     class Program
     {
         static void Main(string[] args)
         {
+            //instanciei um onjeto da classe valores;
+            valores n1 = new valores();
 
-            Operacao b1 = new Operacao();
-
-            b1.calculo();
-
+            n1.Calculo();
         }
     }
 }

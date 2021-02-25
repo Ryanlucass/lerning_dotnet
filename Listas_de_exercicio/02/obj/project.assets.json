@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\ListaEx\\02\\02.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\lerning_dotnet\\Listas_de_exercicio\\02\\02.csproj",
       "projectName": "02",
-      "projectPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\ListaEx\\02\\02.csproj",
+      "projectPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\lerning_dotnet\\Listas_de_exercicio\\02\\02.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\ListaEx\\02\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\GitHub\\lerning_dotnet\\Listas_de_exercicio\\02\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",

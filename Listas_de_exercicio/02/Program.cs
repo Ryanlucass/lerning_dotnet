@@ -7,15 +7,16 @@ namespace _02
     {
         public int numbers;
         public int Total;
+        
 
         //Definindo uma array com dez espaços de valores
-        int[] num= new int [10];
+       
 
 
         //Função que faz todo o calculo
         public void Calculo(){
 
-            for(int i=0; i<num.Length; i++){
+            for(int i=0; i<10; i++){
                 
                 Console.WriteLine("Digite o valor {0} :",i+1);
             
@@ -23,8 +24,9 @@ namespace _02
 
                 Total +=numbers;
             }
-            
-            Console.WriteLine("O total da soma é {0}",Total);
+             
+
+            Console.WriteLine("O total da soma é {0}", Total);
 
         }
     }
