@@ -1,0 +1,16 @@
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\04\obj\Debug\net5.0\04.csprojAssemblyReference.cache
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\04\obj\Debug\net5.0\04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\04\obj\Debug\net5.0\04.AssemblyInfoInputs.cache
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\04\obj\Debug\net5.0\04.AssemblyInfo.cs
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\04\obj\Debug\net5.0\04.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\04\bin\Debug\net5.0\04.exe
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\04\bin\Debug\net5.0\04.deps.json
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\04\bin\Debug\net5.0\04.runtimeconfig.json
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\04\bin\Debug\net5.0\04.runtimeconfig.dev.json
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\04\bin\Debug\net5.0\04.dll
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\04\bin\Debug\net5.0\ref\04.dll
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\04\bin\Debug\net5.0\04.pdb
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\04\obj\Debug\net5.0\04.dll
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\04\obj\Debug\net5.0\ref\04.dll
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\04\obj\Debug\net5.0\04.pdb
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\04\obj\Debug\net5.0\04.genruntimeconfig.cache
