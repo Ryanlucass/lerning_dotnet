@@ -24,8 +24,10 @@ namespace ex01
 
         }
 
-        public void TesteAnimal(){
-            Console.WriteLine("Fazendo o teste: {0}, {1}, {2}",Acordar(),Comer(),Dormir());
+        public void TesteAnimal(string nome){
+            this.nome = nome;
+
+            Console.WriteLine("Fazendo o teste do animal {0}: {1}, {2}, {3}",nome,Acordar(),Comer(),Dormir());
   
         }
 
@@ -38,7 +40,12 @@ namespace ex01
     {
         static void Main(string[] args)
         {
-           
+            
+           Animal camelo=new Animal();
+           camelo.TesteAnimal("Onça");
+
+           Animal Carneiro= new Animal();
+           Carneiro.TesteAnimal("Carneiro");
         }
     }
 }
