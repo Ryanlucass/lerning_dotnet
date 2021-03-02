@@ -17,37 +17,57 @@ namespace _04
 
         public void Calculo(){
 
-            for(int a=0; a<VetorA.Length; a++){
+            //Acrescentando valores ao Vetor A 
+            for(int i=0; i<VetorA.Length; i++){
                 
-                Console.Write("diga o valor do Vetor A na posição {0}: ",a+1);
-                VetorA[a]= int.Parse(Console.ReadLine());
+                Console.Write("diga o valor do Vetor A na posição {0}: ",i+1);
+                VetorA[i]= int.Parse(Console.ReadLine());
             }
 
             Console.WriteLine("--------------------------");
 
-            for(int b=0; b<VetorB.Length; b++){
+            //Acrescentando valores ao Vetor B 
+            for(int i=0; i<VetorB.Length; i++){
 
-                Console.Write("diga o valor do Vetor B na posição {0}:",b+1);
-                VetorB[b]=int.Parse(Console.ReadLine());
+                Console.Write("diga o valor do Vetor B na posição {0}:",i+1);
+                VetorB[i]=int.Parse(Console.ReadLine());
             }
         
             Console.WriteLine("--------------------------");
 
             //Chamando os valores do VetorA
-            for(int r=0; r<VetorA.Length; r++){
+            for(int i=0; i<VetorA.Length; i++){
 
-                Console.WriteLine("A posição {0} do VetorA é: {1}",r+1,VetorA[r]);
+                Console.WriteLine("A posição {0} do VetorA é: {1}",i+1,VetorA[i]);
             }
 
             Console.WriteLine("--------------------------");
             //Chamando os valores do VetorB
             
-            for(int t=0; t<VetorB.Length; t++){
+            for(int i=0; i<VetorB.Length; i++){
 
-                Console.WriteLine("A posição {0} do VetorB é: {1}",t+1,VetorA[t]);
+                Console.WriteLine("A posição {0} do VetorB é: {1}",i+1,VetorA[i]);
             }
 
 
+             if(VetorA == VetorB){
+
+                 for(int i=0; i<6; i++){
+                
+                Console.WriteLine("Teste");
+                
+                }
+             }
+            
+                
+               
+
+            // for(int i=0; i<VetorC.Length; i++){
+
+            //     Console.WriteLine("A posição {0} do VetorB é: {1}",i+1,VetorC[i]);
+            // }
+
+   
         }
 
     }
