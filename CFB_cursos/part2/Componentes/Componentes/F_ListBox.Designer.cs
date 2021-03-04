@@ -35,6 +35,7 @@ namespace Componentes
             this.btn_adicionar = new System.Windows.Forms.Button();
             this.btn_remover = new System.Windows.Forms.Button();
             this.btn_obter = new System.Windows.Forms.Button();
+            this.btn_clear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lb_carros
@@ -48,7 +49,7 @@ namespace Componentes
             // 
             // tb_carro
             // 
-            this.tb_carro.Location = new System.Drawing.Point(274, 75);
+            this.tb_carro.Location = new System.Drawing.Point(266, 49);
             this.tb_carro.Name = "tb_carro";
             this.tb_carro.Size = new System.Drawing.Size(156, 22);
             this.tb_carro.TabIndex = 1;
@@ -56,7 +57,7 @@ namespace Componentes
             // l_carro
             // 
             this.l_carro.AutoSize = true;
-            this.l_carro.Location = new System.Drawing.Point(274, 52);
+            this.l_carro.Location = new System.Drawing.Point(266, 26);
             this.l_carro.Name = "l_carro";
             this.l_carro.Size = new System.Drawing.Size(43, 17);
             this.l_carro.TabIndex = 2;
@@ -64,7 +65,7 @@ namespace Componentes
             // 
             // btn_adicionar
             // 
-            this.btn_adicionar.Location = new System.Drawing.Point(274, 103);
+            this.btn_adicionar.Location = new System.Drawing.Point(266, 77);
             this.btn_adicionar.Name = "btn_adicionar";
             this.btn_adicionar.Size = new System.Drawing.Size(75, 36);
             this.btn_adicionar.TabIndex = 3;
@@ -74,7 +75,7 @@ namespace Componentes
             // 
             // btn_remover
             // 
-            this.btn_remover.Location = new System.Drawing.Point(355, 103);
+            this.btn_remover.Location = new System.Drawing.Point(347, 77);
             this.btn_remover.Name = "btn_remover";
             this.btn_remover.Size = new System.Drawing.Size(75, 36);
             this.btn_remover.TabIndex = 4;
@@ -84,18 +85,30 @@ namespace Componentes
             // 
             // btn_obter
             // 
-            this.btn_obter.Location = new System.Drawing.Point(274, 145);
+            this.btn_obter.Location = new System.Drawing.Point(266, 119);
             this.btn_obter.Name = "btn_obter";
             this.btn_obter.Size = new System.Drawing.Size(156, 33);
             this.btn_obter.TabIndex = 5;
             this.btn_obter.Text = "Obter";
             this.btn_obter.UseVisualStyleBackColor = true;
+            this.btn_obter.Click += new System.EventHandler(this.btn_obter_Click);
+            // 
+            // btn_clear
+            // 
+            this.btn_clear.Location = new System.Drawing.Point(266, 158);
+            this.btn_clear.Name = "btn_clear";
+            this.btn_clear.Size = new System.Drawing.Size(156, 33);
+            this.btn_clear.TabIndex = 6;
+            this.btn_clear.Text = "Limpar ";
+            this.btn_clear.UseVisualStyleBackColor = true;
+            this.btn_clear.Click += new System.EventHandler(this.btn_clear_Click);
             // 
             // F_ListBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(458, 243);
+            this.Controls.Add(this.btn_clear);
             this.Controls.Add(this.btn_obter);
             this.Controls.Add(this.btn_remover);
             this.Controls.Add(this.btn_adicionar);
@@ -119,5 +132,6 @@ namespace Componentes
         private System.Windows.Forms.Button btn_adicionar;
         private System.Windows.Forms.Button btn_remover;
         private System.Windows.Forms.Button btn_obter;
+        private System.Windows.Forms.Button btn_clear;
     }
 }

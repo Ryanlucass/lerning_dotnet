@@ -60,5 +60,18 @@ namespace Componentes
             lb_carros.DataSource = null;
             lb_carros.DataSource = carros;
         }
+
+        //Botão para Obter 
+        private void btn_obter_Click(object sender, EventArgs e)
+        {
+
+            //Obter para o carro label aquilo que está selecionado 
+            tb_carro.Text = carros[lb_carros.SelectedIndex];
+        }
+
+        private void btn_clear_Click(object sender, EventArgs e)
+        {
+            tb_carro.Clear();
+        }
     }
 }
