@@ -31,6 +31,13 @@ namespace Componentes
             lb_carros.DataSource = carros;
         }
 
+        //Função para atualizar o conjunto de dados 
+        private void atualizaLB(ListBox lb, List<string>l)
+        {
+            lb.DataSource = null;
+            lb.DataSource = l;
+        }
+
         private void btn_adicionar_Click(object sender, EventArgs e)
         {
             if(tb_carro.Text == "")
@@ -43,8 +50,7 @@ namespace Componentes
             {
                 carros.Add(tb_carro.Text);
                 //Atulizando o data sirce 
-                lb_carros.DataSource = null;
-                lb_carros.DataSource = carros;
+                atualizaLB(lb_carros, carros);
 
                 tb_carro.Clear();
                 tb_carro.Focus();
@@ -53,12 +59,11 @@ namespace Componentes
 
         //Botão de Remover 
 
-        //Ele vai remover o que está selecionado 
+ 
         private void btn_remover_Click(object sender, EventArgs e)
         {
             carros.RemoveAt(lb_carros.SelectedIndex);
-            lb_carros.DataSource = null;
-            lb_carros.DataSource = carros;
+            atualizaLB(lb_carros, carros);
         }
 
         //Botão para Obter 
@@ -72,6 +77,8 @@ namespace Componentes
         private void btn_clear_Click(object sender, EventArgs e)
         {
             tb_carro.Clear();
+
+            atualizaLB(lb_carros, carros);
         }
     }
 }
