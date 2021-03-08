@@ -34,3 +34,4 @@ C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\CFB_cursos\part2\Compon
 C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\CFB_cursos\part2\Componentes\Componentes\obj\Debug\Componentes.csproj.CoreCompileInputs.cache
 C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\CFB_cursos\part2\Componentes\Componentes\obj\Debug\Componentes.exe
 C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\CFB_cursos\part2\Componentes\Componentes\obj\Debug\Componentes.pdb
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\CFB_cursos\part2\Componentes\Componentes\obj\Debug\Componentes.F_ListView.resources
