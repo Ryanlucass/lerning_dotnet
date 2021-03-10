@@ -29,6 +29,21 @@ namespace Componentes
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
+            "0",
+            "Mouse",
+            "45",
+            "55,00"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            "1",
+            "Teclado",
+            "50",
+            "200,00"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
+            "2",
+            "Monitor ",
+            "100",
+            "550,00"}, -1);
             this.lv_products = new System.Windows.Forms.ListView();
             this.col_id = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.col_produto = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -44,12 +59,15 @@ namespace Componentes
             this.col_qtde,
             this.col_preco});
             this.lv_products.FullRowSelect = true;
-            this.lv_products.GridLines = true;
             this.lv_products.HideSelection = false;
+            this.lv_products.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem1,
+            listViewItem2,
+            listViewItem3});
             this.lv_products.Location = new System.Drawing.Point(12, 12);
             this.lv_products.MultiSelect = false;
             this.lv_products.Name = "lv_products";
-            this.lv_products.Size = new System.Drawing.Size(654, 136);
+            this.lv_products.Size = new System.Drawing.Size(897, 142);
             this.lv_products.TabIndex = 0;
             this.lv_products.UseCompatibleStateImageBehavior = false;
             this.lv_products.View = System.Windows.Forms.View.Details;
@@ -72,13 +90,13 @@ namespace Componentes
             // col_preco
             // 
             this.col_preco.Text = "Preço";
-            this.col_preco.Width = 128;
+            this.col_preco.Width = 84;
             // 
             // F_ListView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(697, 167);
+            this.ClientSize = new System.Drawing.Size(938, 225);
             this.Controls.Add(this.lv_products);
             this.MaximizeBox = false;
             this.Name = "F_ListView";
