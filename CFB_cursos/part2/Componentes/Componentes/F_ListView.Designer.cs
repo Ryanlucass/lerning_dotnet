@@ -29,17 +29,17 @@ namespace Componentes
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
             "0",
             "Mouse",
             "45",
             "55,00"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
             "1",
             "Teclado",
             "50",
             "200,00"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
             "2",
             "Monitor ",
             "100",
@@ -72,13 +72,13 @@ namespace Componentes
             this.lv_products.FullRowSelect = true;
             this.lv_products.HideSelection = false;
             this.lv_products.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1,
-            listViewItem2,
-            listViewItem3});
+            listViewItem4,
+            listViewItem5,
+            listViewItem6});
             this.lv_products.Location = new System.Drawing.Point(12, 12);
             this.lv_products.MultiSelect = false;
             this.lv_products.Name = "lv_products";
-            this.lv_products.Size = new System.Drawing.Size(581, 123);
+            this.lv_products.Size = new System.Drawing.Size(731, 122);
             this.lv_products.TabIndex = 0;
             this.lv_products.UseCompatibleStateImageBehavior = false;
             this.lv_products.View = System.Windows.Forms.View.Details;
@@ -101,7 +101,6 @@ namespace Componentes
             // col_preco
             // 
             this.col_preco.Text = "Preço";
-            this.col_preco.Width = 84;
             // 
             // tb_id
             // 
@@ -185,6 +184,7 @@ namespace Componentes
             this.btn_remover.TabIndex = 10;
             this.btn_remover.Text = "Remover";
             this.btn_remover.UseVisualStyleBackColor = true;
+            this.btn_remover.Click += new System.EventHandler(this.btn_remover_Click);
             // 
             // btn_obter
             // 
@@ -199,7 +199,7 @@ namespace Componentes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(619, 246);
+            this.ClientSize = new System.Drawing.Size(755, 237);
             this.Controls.Add(this.btn_obter);
             this.Controls.Add(this.btn_remover);
             this.Controls.Add(this.btn_adicionar);

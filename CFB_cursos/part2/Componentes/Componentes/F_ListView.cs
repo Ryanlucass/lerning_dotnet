@@ -32,6 +32,15 @@ namespace Componentes
             //criando um array de string 
             string[] pr = new string[4];
 
+            //Verificando se o valor passado é vazio 
+            
+            if(tb_id.Text == "")
+            {
+                MessageBox.Show("ID não posso ser vazio ");
+                tb_id.Focus();
+                return;
+            } 
+
             pr[0] = tb_id.Text;
             pr[1] = tb_produto.Text;
             pr[2] = tb_quantidade.Text;
@@ -43,6 +52,13 @@ namespace Componentes
             ListViewItem l = new ListViewItem(pr);
             lv_products.Items.Add(l);
             limpar();
+        }
+
+       //Remover Componentes 
+       private void btn_remover_Click(object sender, EventArgs e)
+        {
+            lv_products.Items.RemoveAt(lv_products.SelectedIndices[0]);
+            //RemoveAt irá me pedir a posição, como não é multi select, só vai haver um
         }
     }
 }
