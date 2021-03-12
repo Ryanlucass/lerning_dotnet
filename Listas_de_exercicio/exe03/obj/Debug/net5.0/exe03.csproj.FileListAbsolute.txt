@@ -1,0 +1,16 @@
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\exe03\bin\Debug\net5.0\exe03.exe
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\exe03\bin\Debug\net5.0\exe03.deps.json
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\exe03\bin\Debug\net5.0\exe03.runtimeconfig.json
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\exe03\bin\Debug\net5.0\exe03.runtimeconfig.dev.json
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\exe03\bin\Debug\net5.0\exe03.dll
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\exe03\bin\Debug\net5.0\ref\exe03.dll
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\exe03\bin\Debug\net5.0\exe03.pdb
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\exe03\obj\Debug\net5.0\exe03.csprojAssemblyReference.cache
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\exe03\obj\Debug\net5.0\exe03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\exe03\obj\Debug\net5.0\exe03.AssemblyInfoInputs.cache
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\exe03\obj\Debug\net5.0\exe03.AssemblyInfo.cs
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\exe03\obj\Debug\net5.0\exe03.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\exe03\obj\Debug\net5.0\exe03.dll
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\exe03\obj\Debug\net5.0\ref\exe03.dll
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\exe03\obj\Debug\net5.0\exe03.pdb
+C:\Users\lucas\OneDrive\Documentos\GitHub\lerning_dotnet\Listas_de_exercicio\exe03\obj\Debug\net5.0\exe03.genruntimeconfig.cache
