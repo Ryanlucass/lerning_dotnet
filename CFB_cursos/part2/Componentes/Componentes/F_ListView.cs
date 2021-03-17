@@ -79,6 +79,7 @@ namespace Componentes
 
         private void lv_products_SelectedIndexChanged(object sender, EventArgs e)
         {
+            // se for maior que zero, então siginifica que tem item selecionado
             if(lv_products.SelectedItems.Count > 0)
             {
                 Obter();
