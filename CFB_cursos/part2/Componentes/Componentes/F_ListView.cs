@@ -27,6 +27,14 @@ namespace Componentes
             tb_id.Focus();
         }
 
+        private void Obter()
+        {
+            tb_id.Text = lv_products.SelectedItems[0].SubItems[0].Text;
+            tb_produto.Text = lv_products.SelectedItems[0].SubItems[1].Text;
+            tb_quantidade.Text = lv_products.SelectedItems[0].SubItems[2].Text;
+            tb_preco.Text = lv_products.SelectedItems[0].SubItems[3].Text;
+        }
+
         private void btn_adicionar_Click(object sender, EventArgs e)
         {
             //criando um array de string 
@@ -65,19 +73,15 @@ namespace Componentes
         private void btn_obter_Click(object sender, EventArgs e)
         {
             //TextBox está recebendo os itens selecionados, definidos por posições 
-            
 
-            tb_id.Text = lv_products.SelectedItems[0].SubItems[0].Text;
-            tb_produto.Text = lv_products.SelectedItems[0].SubItems[1].Text;
-            tb_quantidade.Text = lv_products.SelectedItems[0].SubItems[2].Text;
-            tb_preco.Text = lv_products.SelectedItems[0].SubItems[3].Text;
+            Obter();
         }
 
         private void lv_products_SelectedIndexChanged(object sender, EventArgs e)
         {
             if(lv_products.SelectedItems.Count > 0)
             {
-                MessageBox.Show("Teste");
+                Obter();
             }
         }
     }
