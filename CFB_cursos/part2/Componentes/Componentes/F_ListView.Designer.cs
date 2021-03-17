@@ -29,17 +29,17 @@ namespace Componentes
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             "0",
             "Mouse",
             "45",
             "55,00"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
             "1",
             "Teclado",
             "50",
             "200,00"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
             "2",
             "Monitor ",
             "100",
@@ -72,9 +72,9 @@ namespace Componentes
             this.lv_products.FullRowSelect = true;
             this.lv_products.HideSelection = false;
             this.lv_products.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem4,
-            listViewItem5,
-            listViewItem6});
+            listViewItem1,
+            listViewItem2,
+            listViewItem3});
             this.lv_products.Location = new System.Drawing.Point(12, 12);
             this.lv_products.MultiSelect = false;
             this.lv_products.Name = "lv_products";
@@ -82,6 +82,7 @@ namespace Componentes
             this.lv_products.TabIndex = 0;
             this.lv_products.UseCompatibleStateImageBehavior = false;
             this.lv_products.View = System.Windows.Forms.View.Details;
+            this.lv_products.SelectedIndexChanged += new System.EventHandler(this.lv_products_SelectedIndexChanged);
             // 
             // col_id
             // 
@@ -194,6 +195,7 @@ namespace Componentes
             this.btn_obter.TabIndex = 11;
             this.btn_obter.Text = "Obter";
             this.btn_obter.UseVisualStyleBackColor = true;
+            this.btn_obter.Click += new System.EventHandler(this.btn_obter_Click);
             // 
             // F_ListView
             // 

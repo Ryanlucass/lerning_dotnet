@@ -60,5 +60,25 @@ namespace Componentes
             lv_products.Items.RemoveAt(lv_products.SelectedIndices[0]);
             //RemoveAt irá me pedir a posição, como não é multi select, só vai haver um
         }
+
+        // Obter componentes 
+        private void btn_obter_Click(object sender, EventArgs e)
+        {
+            //TextBox está recebendo os itens selecionados, definidos por posições 
+            
+
+            tb_id.Text = lv_products.SelectedItems[0].SubItems[0].Text;
+            tb_produto.Text = lv_products.SelectedItems[0].SubItems[1].Text;
+            tb_quantidade.Text = lv_products.SelectedItems[0].SubItems[2].Text;
+            tb_preco.Text = lv_products.SelectedItems[0].SubItems[3].Text;
+        }
+
+        private void lv_products_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(lv_products.SelectedItems.Count > 0)
+            {
+                MessageBox.Show("Teste");
+            }
+        }
     }
 }
