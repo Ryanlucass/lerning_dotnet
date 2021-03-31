@@ -102,5 +102,11 @@ namespace Componentes
             F_ListView f_ListView = new F_ListView();
             f_ListView.ShowDialog();
         }
+
+        private void sQLiteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_sqlite f_Sqlite = new F_sqlite();
+            f_Sqlite.ShowDialog();
+        }
     }
 }
